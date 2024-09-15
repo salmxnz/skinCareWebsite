@@ -1,0 +1,14 @@
+:root
+{
+    --black-color: hsl(0, 0%, 12%);
+    --white-color: hsl(204, 23%, 93%);
+    --beige-color: hsl(30, 30%, 90%);
+    --mint-color: hsl(150, 40%, 80%);
+    --pale-lavender-color: hsl(260, 20%, 85%);
+    --warm-earth-color: hsl(30, 35%, 60%);
+    --dark-cyan-color: hsl(180, 40%, 50%);
+    --pale-sky-blue: hsl(210,50%,85%);
+    --soft-pastel-pink-color: hsl(330, 40%, 85%);
+    --ivory-color: hsl(30, 30%, 90%);
+    --soft-grey-color: hsl(0, 0%, 70%);
+}
