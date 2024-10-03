@@ -35,6 +35,22 @@
 .nav_toggle {
   display: block; /* Show the hamburger icon on small screens */
 }
+
+.dropdown-menu {
+  display: none; /* Hidden by default */
+  position: absolute; /* Positioning for dropdown */
+  width: 100%; /* Full width */
+  left: 0; /* Align to left */
+  top: calc(100% + 0.5rem); /* Position below the Products link */
+  background-color: var(--container-color); /* Background color */
+  text-align: center; /* Center text */
+  box-shadow: 0 4px 8px var(--shadow); /* Add shadow */
+  z-index: 1; /* Keep above other content */
+}
+
+.nav__link {
+  padding: 1rem; /* Padding for clickable area */
+}
 }
 /* Active link (highlight) for current page */
 .active-link::before {

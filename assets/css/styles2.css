@@ -207,3 +207,44 @@ input {
 /* ul{
   margin: 0;
 } */
+
+/*=============== DROPDOWN CSS ===============*/
+/* Dropdown Menu Styles */
+.dropdown-menu {
+  /* display: block; Makes the dropdown a block element */
+  padding: 0;
+}
+
+.dropdown-item {
+  display: block; /* Ensures each item takes full width */
+  color: var(--title-color); /* Ensure the text color matches */
+  padding: 10px 20px; /* Add some padding for spacing */
+  text-align: left; /* Align text to the left */
+}
+
+.dropdown-item:hover {
+   color: var(--mint-color); /* Change text color on hover */
+}
+
+.dropdown-item.clicked {
+  text-decoration: none; /* Remove underline on active item */
+}
+
+.nav__link.dropdown-toggle {
+  text-decoration: none; /* Removes underline from the Products link */
+}
+
+.nav__link.dropdown-toggle:hover,
+.nav__link.dropdown-toggle:focus,
+.nav__link.dropdown-toggle:active {
+  background-color: transparent; /* No background color on hover */
+  color: var(--mint-color); /* Change text color to mint green on hover */
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
+.dropdown-item:focus {
+  outline: none; /*Remove focus outline*/
+  background-color: transparent;
+  color: var(--mint-color);
+  text-decoration: none; /* Ensure no underline */
+}
