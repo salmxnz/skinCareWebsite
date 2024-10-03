@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Skin Care Website</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skin Care Website</title>
 
     <!--=============== BOXICONS ===============-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
 
-  <!-- ============ CSS ============ -->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/colors/color-1.css">
-</head>
-<body>
-   <!--=============== HEADER ===============-->
-   <header class="header" id="header">
-        <nav class="nav container">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <!-- ============ CSS ============ -->
+
+    <link rel="stylesheet" href="assets/css/styles2.css" />
+    <link rel="stylesheet" href="assets/css/colors/color-1.css" />
+    <link rel="stylesheet" href="assets/css/stylesMobile.css" />
+
+    <!-- ============ NAVBAR Script ============ -->
+    <script src="assets/js/navbarToggle.js"></script>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
         <a href="index.html" class="nav_logo">
           <i class="bx bxs-shopping-bag nav_logo-icon"></i> SkinCare
         </a>
@@ -32,129 +49,88 @@
               <a href="index.html" class="nav__link active-link">Home</a>
             </li>
             <li class="nav_item">
-              <a href="shop.html" class="nav__link">Shop</a>
+              <a href="shop.html" class="nav__link">Products</a>
             </li>
 
             <li class="nav_item">
-              <a href="cart.html" class="nav__link">Cart</a>
-            </li>
-
-            <li class="nav_item">
-              <a href="blog.html" class="nav__link">Blog</a>
+              <a href="contact.html" class="nav__link">Contact</a>
             </li>
 
             <li class="nav_item">
               <a href="faq.html" class="nav__link">FAQ</a>
             </li>
 
-            <li class="nav_item">
-              <a href="contact.html" class="nav__link">Contact</a>
-            </li>
           </ul>
         </div>
 
         <div class="nav__btns">
           <div class="login_toggle" id="login-toggle">
-            <i class="bx bx-user" onmouseover="this.className='bx bxs-user'" onmouseout="this.className='bx bx-user'"></i>
+            <i
+              class="bx bx-user"
+              onmouseover="this.className='bx bxs-user'"
+              onmouseout="this.className='bx bx-user'"
+            ></i>
           </div>
 
           <div class="nav_shop" id="cart-shop">
             <i class="bx bxs-shopping-bag"></i>
           </div>
 
-          <div class="nav_toggle" id="nav-toggle">
-            <i class="bx bx-grid-alt"></i>
-          </div> 
-
-          <!-- <div class="nav__search" id="nav-search">
-            <i class="bx bx-search"></i>
+                <!-- Hamburger Menu for Mobile -->
+      <div class="nav_toggle" id="nav-toggle">
+        <i class="bx bx-grid-alt"></i>
+      </div>
           </div>
-
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="bx bx-menu nav__icon"></i> -->
-           
-            
-          
         </div>
+      </nav>
+    </header>
 
+    <!--=============== CART ===============-->
+    <div class="cart" id="cart"></div>
 
-        <!-- <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="bx bx-home nav__icon"></i> Home
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#discount" class="nav__link">
-                <i class="bx bx-percent nav__icon"></i> Discount
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#new" class="nav__link">
-                <i class="bx bx-trophy nav__icon"></i> New
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#steps" class="nav__link">
-                <i class="bx bx-walk nav__icon"></i> Steps -->
+    <!--=============== LOGIN ===============-->
+    <div class="login" id="login"></div>
 
-        </nav>
-   </header>
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home container">
+        <div class="swiper home-swiper">
+          <div class="swiper-wrapper">
+            <!-- HOME SWIPER -->
+            <section class="swiper-slide">
+              <div class="home__content grid">
+                <div class="home__group"></div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
 
-   <!--=============== CART ===============-->
-   <div class="cart" id="cart">
-       
-   </div>
+      <!--=============== DISCOUNT ===============-->
+      <section class="discount section"></section>
 
-   <!--=============== LOGIN ===============-->
-   <div class="login" id="login">
-       
-   </div>
+      <!--=============== NEW ARRIVALS ===============-->
+      <section class="new section"></section>
 
-   <!--=============== MAIN ===============-->
-   <main class="main">
-       <!--=============== HOME ===============-->
-       <section class="home container">
-           
-       </section>
+      <!--=============== STEPS ===============-->
+      <section class="steps section container"></section>
 
-       <!--=============== DISCOUNT ===============-->
-       <section class="discount section">
-           
-       </section>
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter section"></section>
+    </main>
 
-       <!--=============== NEW ARRIVALS ===============-->
-       <section class="new section">
-           
-       </section>
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section"></footer>
 
-       <!--=============== STEPS ===============-->
-       <section class="steps section container">
-           
-       </section>
+    <!--=============== SCROLL UP ===============-->
 
-       <!--=============== NEWSLETTER ===============-->
-       <section class="newsletter section">
-           
-       </section>
-   </main>
+    <!--=============== STYLE SWITCHER ===============-->
 
-   <!--=============== FOOTER ===============-->
-   <footer class="footer section">
-       
-   </footer>
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
-   <!--=============== SCROLL UP ===============-->
-
-   <!--=============== STYLE SWITCHER ===============-->
-
-   <!--=============== SWIPER JS ===============-->
-   <script src="assets/js/swiper-bundle.min.js"></script>
-
-   <!--=============== JS ===============-->
-   <script src="assets/js/main.js"></script>
-  
-</body>
+    <!--=============== JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
-
