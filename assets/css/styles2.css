@@ -21,8 +21,25 @@
   --h2-font-size: 2rem;
   --h3-font-size: 1.75rem;
   --normal-font-size: 1.55rem;
-  --small-font-size: .875rem;
+  --small-font-size: 1rem;
   --smaller-font-size: .813rem;
+
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-bold: 600;
+  
+    /*========== Margenes Bottom ==========*/
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+  
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
 
 }
 
@@ -105,7 +122,7 @@ input {
 /*=============== NAV ===============*/
 .nav {
   width: 100%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   height: calc(var(--header-height) + 2rem);
   display: flex;
   justify-content: space-between;
@@ -248,3 +265,288 @@ input {
   color: var(--mint-color);
   text-decoration: none; /* Ensure no underline */
 }
+
+.search-container {
+  position: relative;
+  width: 100%; /* Set this to the desired width */
+  max-width: 400px; /* Optional: set max-width for input */
+}
+
+/* Style for the input field */
+.search-input {
+  width: 100%;
+  padding: 0.75rem 2.5rem 0.75rem 1rem; /* Padding to leave space for the icon */
+  border: 1px solid #ccc; /* Border styling */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: var(--mint-color); /* Optional: Focus border color */
+}
+
+/* Style for the search button (icon) */
+.search-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust based on the desired placement */
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem; /* Icon size */
+  color: var(--text-color); /* Color of the icon */
+  outline: none;
+  transition: color 0.3s;
+}
+
+.search-btn:hover i {
+  color: var(--mint-color); /* Change color on hover */
+}
+
+
+/*=============== MAIN ===============*/
+/*========== HOME SECTION ==========*/
+
+
+
+/* Swiper Class */
+
+
+
+/*=============== BUTTONS ===============*/
+ 
+
+
+/*========== DISCOUNT SECTION ==========*/
+
+
+
+/*========== NEW ARRIVALS SECTION ==========*/
+
+
+/*========== STEPS SECTION ==========*/
+
+
+/*========== NEWSLETTER SECTION ==========*/
+
+
+/*=============== SHOP PAGE ===============*/
+
+
+/*=============== PAGINATION ===============*/
+
+
+/*=============== DETAILS PAGE ===============*/
+
+
+/*=============== ABOUT PAGE ===============*/
+
+
+/*=============== BLOG PAGE ===============*/
+
+
+/*=============== CART PAGE ===============*/
+.cart{
+  position: fixed;
+  background-color: var(--body-color);
+  z-index: var(--z-fixed);
+  width: 420px;
+  box-shadow: -2px 0 4px var(--shadow);
+  height: 100%;
+  top: 0;
+  right: -100%;
+  padding: 3.5rem 2rem;
+  transition: 0.3s;
+}
+
+.cart__close{
+  position: absolute;
+  top: 1.25rem;
+  right: 0.9rem;
+  font-size: 2.5rem;
+  color: var(--title-color);
+  cursor: pointer;
+}
+
+.cart__title-center{
+  font-size: var(--h2-font-size);
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: var(--mb-3);
+}
+
+.cart__container{
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.cart__card{
+  /* display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  column-gap: 1rem;
+  align-items: center; */
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.cart__img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.cart__box{
+  background-color: var(--container-color);
+  padding: .75rem, 1.25rem;
+  display: flex;
+  display: flex;
+  align-items: center;
+}
+
+.cart__title{
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+  margin-bottom: var(--mb-0-5);
+}
+
+.cart__price{
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--first-color);
+  margin-bottom: var(--mb-1-5);
+}
+
+.cart__amount, .cart__amount-content {
+  display: flex;
+  align-items: center;
+}
+
+.cart__amount{
+  column-gap: 3rem;
+}
+
+.cart__amount-content{
+  font-size: 1.5rem;
+  font-weight: 500;
+  column-gap: 1rem;
+}
+
+.cart__amount-box{
+  display: inline-flex;
+  font-size: 1.5rem;
+  padding: .25rem;
+  background: var(--container-color);
+  cursor: pointer;
+}
+
+.cart__amount-box:hover{
+  background: var(--beige-color);
+}
+
+.cart__amount-trash{
+  font-size: 1.5rem;
+  color: var(--red-color);
+  cursor: pointer;
+}
+
+.cart__prices{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.cart__prices-item, .cart__prices-total{
+  color: var(--title-color);
+}
+
+.cart__prices-item{
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+}
+
+.cart__prices-total{
+  font-size: var(--h3-font-size);
+  font-weight: 500;
+}
+
+.show-cart{
+  right: 0;
+}
+
+.cart.show-cart {
+  right: 0;
+}
+
+/*=============== FAQ PAGE ===============*/
+
+
+/*Rotate icon, change color of titles and background*/
+
+
+/*=============== REGISTRATION PAGE ===============*/
+
+
+/*=============== CONTACT PAGE ===============*/
+
+
+/*=============== FOOTER ===============*/
+
+
+/*=============== SCROLL UP ===============*/
+
+
+/* Show Scroll Up*/
+
+
+/*=============== SCROLL BAR ===============*/
+
+
+/*=============== LOGIN ===============*/
+
+
+/* Show login */
+
+
+/*=============== CART ===============*/
+
+
+/* Show cart */
+
+
+/*=============== LIGHTBOX ===============*/
+
+
+/* lightbox open */
+
+
+/* lightbox open animation */
+
+
+/*=============== STYLE SWITCHER ===============*/
+
+
+/* Style switcher open */
+
+
+/* Active theme color */
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+/* For medium devices */
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 576px) {}
+
+/* For small devices */
+@media screen and (max-width: 320px) {}

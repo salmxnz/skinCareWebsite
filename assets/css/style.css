@@ -210,6 +210,11 @@ input {
   justify-content: space-between;
   align-items: center; /* Changed from align-content to align-items */
   column-gap: 3em;
+  max-width: 900px;
+}
+
+nav .nav.nav.container{
+  max-width: 900px;
 }
 
 .login_toggle,
@@ -219,6 +224,8 @@ input {
   color: var(--title-color) ;
   /* color: var(--beige-color); */
 }
+
+
 
 .nav_logo {
   text-transform: lowercase;
