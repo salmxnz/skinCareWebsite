@@ -22,8 +22,8 @@
   --h2-font-size: 2rem;
   --h3-font-size: 1.75rem;
   --normal-font-size: 1.55rem;
-  --small-font-size: 1rem;
-  --smaller-font-size: .813rem;
+  --small-font-size: 1.3rem;
+  --smaller-font-size: 1rem;
 
     /*========== Font weight ==========*/
     --font-medium: 500;
@@ -416,6 +416,7 @@ input {
 .newsletter__input::placeholder{
   color:white;
 }
+
 
 
 /*=============== SHOP PAGE ===============*/
