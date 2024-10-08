@@ -1,0 +1,552 @@
+  /*========== Google Font ==========*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  /*========== Variables CSS ==========*/
+
+:root{
+  --header-height: 3.5rem;
+    /*========== Colors ==========*/
+    --title-color: hsl(250, 8%, 15%);
+    --text-color: hsl(250, 8%, 35%);
+    --body-color: hsl(250, 60%, 98%);
+    --container-color: #fff;
+    --shadow: hsla(0, 0%, 15%, .1);
+    --scroll-bar-color: hsl(250, 12%, 90%);
+    --scroll-thumb-color: hsl(250, 12%, 80%);
+
+  --body-font: 'Poppins', sans-serif;
+  --biggest-font-size: 4rem;
+  --h1-font-size: 3rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.75rem;
+  --normal-font-size: 1.55rem;
+  --small-font-size: 1rem;
+  --smaller-font-size: .813rem;
+
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-bold: 600;
+  
+    /*========== Margenes Bottom ==========*/
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+  
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.section {
+  padding: 7rem 0 2rem;
+}
+
+.section__title,
+.breadcrumb__title {
+  font-size: var(--h1-font-size);
+}
+
+.section__title,
+.breadcrumb__subtitle {
+  margin-bottom: var(--mb-3);
+}
+
+.section__title,
+.breadcrumb__title,
+.breadcrumb__subtitle {
+  text-align: center;
+}
+
+/*=============== LAYOUT ===============*/
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+
+}
+
+.grid {
+  display: grid;
+}
+
+/*=============== HEADER SECTION ===============*/
+.header{
+  width: 100%;
+  background: transparent;
+  /* background: var(--container-color); */
+  /* box-shadow: 0 2px 4px var(--shadow); */
+  position: fixed;
+  top: 0.20rem;
+  left: 0;
+  z-index: var(--z-fixed);
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;     /* Center content vertically */
+}
+
+/*=============== NAV ===============*/
+.nav {
+  width: 100%;
+  /* max-width: 1200px; */
+  height: calc(var(--header-height) + 2rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Changed from align-content to align-items */
+  column-gap: 3em;
+  /* background-color: yellow; */
+}
+
+.login_toggle,
+.nav_logo,
+.nav_toggle,
+.nav_shop {
+  color: var(--title-color) ;
+  /* color: var(--beige-color); */
+}
+
+.nav_logo {
+  /* text-transform: lowercase; */
+  letter-spacing: 1px;
+  font-weight: 700;
+  display: inline-flex; /* Ensure flex display */
+  align-items: center; /* Align items vertically in the center */
+  column-gap: .25rem;
+}
+
+.nav_logo:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav__btns {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  column-gap: 1rem;
+}
+
+.nav_toggle,.login_toggle,.nav_shop {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav_list {
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+  margin: 0;
+  padding-left: 0;
+  font-weight: 500;
+}
+
+.nav__menu {
+  display: flex;
+  flex: 1;
+  justify-content: center; /* Centers the items horizontally */
+}
+
+.nav__link {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  font-size: var(--normal-font-size);
+  transition: .3s;
+}
+
+.nav__link:hover {
+  text-decoration: none;
+  color: var(--mint-color);
+}
+
+.nav_toggle{
+  display: none;
+}
+
+/* .nav__link.active {
+  color: var(--mint-color);
+} */
+
+
+
+/* Change background header */
+
+
+/* Active link */
+.active-link{
+  position: relative;
+}
+
+.active-link::before{
+  content: '';
+  position: absolute;
+  bottom: -.75rem;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--mint-color);
+  /* border-radius: 1px; */
+}
+
+/* ul{
+  margin: 0;
+} */
+
+/*=============== DROPDOWN CSS ===============*/
+/* Dropdown Menu Styles */
+.dropdown-menu {
+  /* display: block; Makes the dropdown a block element */
+  padding: 0;
+}
+
+.dropdown-item {
+  display: block; /* Ensures each item takes full width */
+  color: var(--title-color); /* Ensure the text color matches */
+  padding: 10px 20px; /* Add some padding for spacing */
+  text-align: left; /* Align text to the left */
+}
+
+.dropdown-item:hover {
+   color: var(--mint-color); /* Change text color on hover */
+}
+
+.dropdown-item.clicked {
+  text-decoration: none; /* Remove underline on active item */
+}
+
+.nav__link.dropdown-toggle {
+  text-decoration: none; /* Removes underline from the Products link */
+}
+
+.nav__link.dropdown-toggle:hover,
+.nav__link.dropdown-toggle:focus,
+.nav__link.dropdown-toggle:active {
+  background-color: transparent; /* No background color on hover */
+  color: var(--mint-color); /* Change text color to mint green on hover */
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
+.dropdown-item:focus {
+  outline: none; /*Remove focus outline*/
+  background-color: transparent;
+  color: var(--mint-color);
+  text-decoration: none; /* Ensure no underline */
+}
+
+.search-container {
+  position: relative;
+  width: 100%; /* Set this to the desired width */
+  max-width: 400px; /* Optional: set max-width for input */
+}
+
+/* Style for the input field */
+.search-input {
+  width: 100%;
+  padding: 0.75rem 2.5rem 0.75rem 1rem; /* Padding to leave space for the icon */
+  border: 1px solid #ccc; /* Border styling */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: var(--mint-color); /* Optional: Focus border color */
+}
+
+/* Style for the search button (icon) */
+.search-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust based on the desired placement */
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem; /* Icon size */
+  color: var(--text-color); /* Color of the icon */
+  outline: none;
+  transition: color 0.3s;
+}
+
+.search-btn:hover i {
+  color: var(--mint-color); /* Change color on hover */
+}
+
+
+/*=============== MAIN ===============*/
+/*========== HOME SECTION ==========*/
+
+
+
+/* Swiper Class */
+
+
+
+/*=============== BUTTONS ===============*/
+ 
+
+
+/*========== DISCOUNT SECTION ==========*/
+
+
+
+/*========== NEW ARRIVALS SECTION ==========*/
+
+
+/*========== STEPS SECTION ==========*/
+
+
+/*========== NEWSLETTER SECTION ==========*/
+
+
+/*=============== SHOP PAGE ===============*/
+
+
+/*=============== PAGINATION ===============*/
+
+
+/*=============== DETAILS PAGE ===============*/
+
+
+/*=============== ABOUT PAGE ===============*/
+
+
+/*=============== BLOG PAGE ===============*/
+
+
+/*=============== CART PAGE ===============*/
+.cart{
+  position: fixed;
+  background-color: var(--body-color);
+  z-index: var(--z-fixed);
+  width: 420px;
+  box-shadow: -2px 0 4px var(--shadow);
+  height: 100%;
+  top: 0;
+  right: -100%;
+  padding: 3.5rem 2rem;
+  transition: 0.3s;
+}
+
+.cart__close{
+  position: absolute;
+  top: 1.25rem;
+  right: 0.9rem;
+  font-size: 2.5rem;
+  color: var(--title-color);
+  cursor: pointer;
+}
+
+.cart__title-center{
+  font-size: var(--h2-font-size);
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: var(--mb-3);
+}
+
+.cart__container{
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.cart__card{
+  /* display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  column-gap: 1rem;
+  align-items: center; */
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.cart__img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.cart__box{
+  background-color: var(--container-color);
+  padding: .75rem, 1.25rem;
+  display: flex;
+  display: flex;
+  align-items: center;
+}
+
+.cart__title{
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+  margin-bottom: var(--mb-0-5);
+}
+
+.cart__price{
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--first-color);
+  margin-bottom: var(--mb-1-5);
+}
+
+.cart__amount, .cart__amount-content {
+  display: flex;
+  align-items: center;
+}
+
+.cart__amount{
+  column-gap: 3rem;
+}
+
+.cart__amount-content{
+  font-size: 1.5rem;
+  font-weight: 500;
+  column-gap: 1rem;
+}
+
+.cart__amount-box{
+  display: inline-flex;
+  font-size: 1.5rem;
+  padding: .25rem;
+  background: var(--container-color);
+  cursor: pointer;
+}
+
+.cart__amount-box:hover{
+  background: var(--beige-color);
+}
+
+.cart__amount-trash{
+  font-size: 1.5rem;
+  color: var(--red-color);
+  cursor: pointer;
+}
+
+.cart__prices{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.cart__prices-item, .cart__prices-total{
+  color: var(--title-color);
+}
+
+.cart__prices-item{
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+}
+
+.cart__prices-total{
+  font-size: var(--h3-font-size);
+  font-weight: 500;
+}
+
+.show-cart{
+  right: 0;
+}
+
+.cart.show-cart {
+  right: 0;
+}
+
+/*=============== FAQ PAGE ===============*/
+
+
+/*Rotate icon, change color of titles and background*/
+
+
+/*=============== REGISTRATION PAGE ===============*/
+
+
+/*=============== CONTACT PAGE ===============*/
+
+
+/*=============== FOOTER ===============*/
+
+
+/*=============== SCROLL UP ===============*/
+
+
+/* Show Scroll Up*/
+
+
+/*=============== SCROLL BAR ===============*/
+
+
+/*=============== LOGIN ===============*/
+
+
+/* Show login */
+
+
+/*=============== CART ===============*/
+
+
+/* Show cart */
+
+
+/*=============== LIGHTBOX ===============*/
+
+
+/* lightbox open */
+
+
+/* lightbox open animation */
+
+
+/*=============== STYLE SWITCHER ===============*/
+
+
+/* Style switcher open */
+
+
+/* Active theme color */
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+/* For medium devices */
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 576px) {}
+
+/* For small devices */
+@media screen and (max-width: 320px) {}
