@@ -483,6 +483,28 @@ input {
   right: 0;
 }
 
+/* Bootstrap carousel custom styling */
+.carousel-inner img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* Change icon color to white */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
 /*=============== FAQ PAGE ===============*/
 
 
