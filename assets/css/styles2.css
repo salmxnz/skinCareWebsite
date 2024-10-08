@@ -11,6 +11,7 @@
     --text-color: hsl(250, 8%, 35%);
     --body-color: hsl(250, 60%, 98%);
     --container-color: #fff;
+    --container2-color: hsl(220, 100%, 99%);
     --shadow: hsla(0, 0%, 15%, .1);
     --scroll-bar-color: hsl(250, 12%, 90%);
     --scroll-thumb-color: hsl(250, 12%, 80%);
@@ -362,7 +363,7 @@ input {
 
 .steps__card-number{
  display:inline-block;
- background-color:#f59211 ;
+ background-color:var(--mint-color) ;
  color:white;
  padding: .5rem .75rem;
  border-radius: .25rem;
@@ -398,7 +399,7 @@ input {
 }
 
 .newsletter__form{
-  background-color: #f59211;
+  background-color: var(--mint-color);
   padding: 1rem;
   display:flex;
   justify-content: space-between;

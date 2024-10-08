@@ -1,0 +1,24 @@
+.new__container{
+  padding-top: 1rem;
+}
+
+.new__img{
+  width: 150px;
+  margin-bottom: var(--mb-1-5);
+}
+
+.new__content{
+  position: relative;
+  background-color: var(--body-color);
+  width: 310px;
+  padding: 2rem 0;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.new__tag{
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  background-color: var(--first-)
+}
