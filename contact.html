@@ -97,36 +97,50 @@
         
     </div>
 
-    <!--=============== MAIN ===============-->
-    <main class="main">
-        <!--=============== CONTACT US ===============-->
-        <section class="contact section container">
-          <main class="content">
-            <section class="commitments">
-                <h2>Our Commitments to Customers</h2>
-                <p>We strive to provide the best customer experience by offering high-quality products, fast delivery, and excellent customer support.</p>
-                <p>Your satisfaction is our priority.</p>
-            </section>
+        <title>Contact Us - Skincare</title>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/styles2.css">
+    </head>
+    <body>
+        <section class="contact-section">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>We’d love to hear from you. Let us know how we can help you glow.</p>
+                
+                <div class="contact-info">
+                    <div class="info-box">
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@skincare.com">info@skincare.com</a></p>
+                    </div>
+                    <div class="info-box">
+                        <h3>Phone</h3>
+                        <p><a href="tel:+123456789">+230 5123 4567</a></p>
+                    </div>
+                    <div class="info-box">
+                        <h3>Address</h3>
+                        <p>3, Shand Street, Beau Bassin<p>
+                    </div>
+                </div>
     
-            <section class="contact-info">
-                <h2>Contact Information</h2>
-                <p>If you have any questions or concerns, feel free to reach out to us:</p>
-                <ul>
-                    <li>Email: <a href="mailto:info@example.com">skincare@example.com</a></li>
-                    <li>Phone: <a href="tel:+123456789">+123 456 789</a></li>
-                    <li>Address: 1234 Example St, City, Country</li>
-                </ul>
-            </section>
-    
-            <section class="map">
-                <h2>Our Location</h2>
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345099334!2d144.95512331531515!3d-37.81627927975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf4c38c5fb4faace7!2sFederation+Square!5e0!3m2!1sen!2sau!4v1544070933996"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </section>
-        </main>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
         </section>
-    </main>
+    </body>
+    </html>    
 
     <!--=============== FOOTER ===============-->
     <footer class="footer section">
