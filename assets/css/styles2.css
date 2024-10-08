@@ -107,7 +107,7 @@ input {
 /*=============== HEADER SECTION ===============*/
 .header{
   width: 100%;
-  background: transparent;
+  background: #fff;
   /* background: var(--container-color); */
   /* box-shadow: 0 2px 4px var(--shadow); */
   position: fixed;
@@ -227,11 +227,24 @@ input {
 
 /*=============== DROPDOWN CSS ===============*/
 /* Dropdown Menu Styles */
+/* Ensure the dropdown is hidden initially */
 .dropdown-menu {
-  /* display: block; Makes the dropdown a block element */
+  display: none; /* Hide dropdown by default */
   padding: 0;
+  opacity: 0; /* Add opacity for smooth transition */
+  visibility: hidden; /* Hide dropdown */
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition */
 }
 
+/* Show the dropdown on hover */
+.nav-item:hover .dropdown-menu {
+  display: block; /* Show the dropdown */
+  opacity: 1; /* Make it fully visible */
+  visibility: visible; /* Make it visible */
+  position: absolute; /* Keep it positioned properly */
+}
+
+/* Keep the original styles for the dropdown items */
 .dropdown-item {
   display: block; /* Ensures each item takes full width */
   color: var(--title-color); /* Ensure the text color matches */
@@ -240,17 +253,19 @@ input {
 }
 
 .dropdown-item:hover {
-   color: var(--mint-color); /* Change text color on hover */
+  color: var(--mint-color); /* Change text color on hover */
 }
 
 .dropdown-item.clicked {
   text-decoration: none; /* Remove underline on active item */
 }
 
+/* Keep styles for the dropdown toggle */
 .nav__link.dropdown-toggle {
   text-decoration: none; /* Removes underline from the Products link */
 }
 
+/* Adjust hover and active states for the Products link */
 .nav__link.dropdown-toggle:hover,
 .nav__link.dropdown-toggle:focus,
 .nav__link.dropdown-toggle:active {
@@ -260,11 +275,12 @@ input {
 }
 
 .dropdown-item:focus {
-  outline: none; /*Remove focus outline*/
+  outline: none; /* Remove focus outline */
   background-color: transparent;
   color: var(--mint-color);
   text-decoration: none; /* Ensure no underline */
 }
+
 
 .search-container {
   position: relative;
