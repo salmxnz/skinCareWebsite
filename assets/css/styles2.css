@@ -747,8 +747,9 @@ p {
 /* Submit Button */
 .submit-btn {
   width: 100%;
-  padding: 15px;
-  background-color: #628267;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #77ab7f;
   border: none;
   color: white;
   font-size: 1.2rem;
@@ -758,7 +759,7 @@ p {
 }
 
 .submit-btn:hover {
-  background-color: #77ab7f;
+  background-color: #628267;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
