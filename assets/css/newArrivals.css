@@ -1,5 +1,7 @@
 .new__container{
   padding-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .new__img{

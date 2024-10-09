@@ -12,7 +12,12 @@
     />
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+   <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 
     <!-- Latest compiled and minified CSS -->
     <link
@@ -32,7 +37,6 @@
     <link rel="stylesheet" href="assets/css/colors/color-1.css" />
     <link rel="stylesheet" href="assets/css/stylesMobile.css" />
     <link rel="stylesheet" href="assets/css/newArrivals.css" />
-
 
     <!-- ============ NAVBAR Script ============ -->
     <script src="assets/js/navbarToggle.js"></script>
@@ -110,6 +114,15 @@
         </div>
       </nav>
     </header>
+<!--=============== HERO HEADER ===============-->
+<div class="hero-header" style="background-image: url('https://images.pexels.com/photos/3772980/pexels-photo-3772980.jpeg'); height: 400px; background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; color: white; text-align: center;">
+  <div class="container">
+      <h1 style="font-size: 3rem; font-weight: bold;">aura+</h1>
+      <p style="font-size: 1.5rem;">Explore our range of high-quality skincare, hair care, and beauty products.</p>
+  </div>
+</div>
+
+
 
     <!--=============== CART ===============-->
     <div class="cart" id="cart">
@@ -230,27 +243,312 @@
 
       <section class="new section">
         <h2 class="section__title">New Arrivals</h2>
-
-        <div class="new__container container">
-          <div>
-            <div>
+      
+        <!-- Swiper Container -->
+        <div class="swiper new-swiper container">
+          <div class="swiper-wrapper">
+            <!-- Product 1 -->
+            <div class="swiper-slide">
               <div class="new__content">
                 <div class="new__tag">New</div>
-                <img src="https://www.laroche-posay.sg/-/media/project/loreal/brand-sites/lrp/apac/sg/products/effaclar/effaclar-ai/la-roche-posay-face-care-effaclar-ai-targeted-imperfection-corrector-15ml-3433422406704-front.png?cx=0.49&amp;ch=600&amp;cy=0.66&amp;cw=600&hash=C60123AB5D3DC69CBE3B0A2D39223B4F" alt="" class="new__img" />
-                <h3 class="new__title">Product Title</h3>
-                <span class="new__subtitle">Category</span>
+                <img src="https://www.laroche-posay.sg/-/media/project/loreal/brand-sites/lrp/apac/sg/products/effaclar/effaclar-ai/la-roche-posay-face-care-effaclar-ai-targeted-imperfection-corrector-15ml-3433422406704-front.png?cx=0.49&amp;ch=600&amp;cy=0.66&amp;cw=600&hash=C60123AB5D3DC69CBE3B0A2D39223B4F" alt="Effaclar Corrector" class="new__img" />
+                <h3 class="new__title">Effaclar AI Corrector</h3>
+                <span class="new__subtitle">Face Care</span>
                 <div class="new__prices">
                   <span class="new__price">$15.99</span>
                   <span class="new__discount">$20.99</span>
+                </div>
+                <a href="details.html" class="new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </a>
+              </div>
+            </div>
+      
+            <!-- Product 2 -->
+            <div class="swiper-slide">
+              <div class="new__content">
+                <div class="new__tag">New</div>
+                <img src="https://socialitebeauty.ca/cdn/shop/files/rdn-niacinamide-10pct-zinc-1pct-120ml.png?v=1695414968" alt="Niacinamide Serum" class="new__img" />
+                <h3 class="new__title">Niacinamide 10% + Zinc 1%</h3>
+                <span class="new__subtitle">Skin Care</span>
+                <div class="new__prices">
+                  <span class="new__price">$5.99</span>
+                  <span class="new__discount">$8.99</span>
+                </div>
+                <a href="details.html" class="new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </a>
+              </div>
+            </div>
+      
+            <!-- Product 3 -->
+            <div class="swiper-slide">
+              <div class="new__content">
+                <div class="new__tag">New</div>
+                <img src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwa8c028f4/Images/products/The%20Ordinary/rdn-retinol-1pct-in-squalane-30ml.png?sw=900&sh=900&sm=fit" alt="Retinol 1%" class="new__img" />
+                <h3 class="new__title">Retinol 1% in Squalane</h3>
+                <span class="new__subtitle">Skin Care</span>
+                <div class="new__prices">
+                  <span class="new__price">$8.99</span>
+                  <span class="new__discount">$10.99</span>
+                </div>
+                <a href="details.html" class="new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </a>
+              </div>
+            </div>
+      
+            <!-- Product 4 -->
+            <div class="swiper-slide">
+              <div class="new__content">
+                <div class="new__tag">New</div>
+                <img src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw711cec9a/Images/products/The%20Ordinary/rdn-azelaic-acid-suspension-10pct-30ml.png?sw=1200&sh=1200&sm=fit" alt="Innisfree Green Tea" class="new__img" />
+                <h3 class="new__title">Azelaic Acid Suspension 10%</h3>
+                <span class="new__subtitle">Face Care</span>
+                <div class="new__prices">
+                  <span class="new__price">$18.99</span>
+                  <span class="new__discount">$22.99</span>
+                </div>
+                <a href="details.html" class="new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </a>
+              </div>
+            </div>
+      
+            <!-- Product 5 -->
+            <div class="swiper-slide">
+              <div class="new__content">
+                <div class="new__tag">New</div>
+                <img src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw8b57fa2b/Images/products/The%20Ordinary/ord-glyc-acid-7pct-100ml-Aug-UPC.png?sw=1200&sh=1200&sm=fit" alt="Glycolic Acid 7%" class="new__img" />
+                <h3 class="new__title">Glycolic Acid 7% Toning Solution</h3>
+                <span class="new__subtitle">Skin Care</span>
+                <div class="new__prices">
+                  <span class="new__price">$8.99</span>
+                  <span class="new__discount">$12.99</span>
+                </div>
+                <a href="details.html" class="new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </a>
+              </div>
+            </div>
+      
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+      
+      <script src="assets/js/swiper-bundle.min.js"></script>
+<script>
+  // Swiper for New Arrivals Section
+  var swiper = new Swiper(".new-swiper", {
+    slidesPerView: 1,       // Adjust number of visible slides
+    spaceBetween: 10,       // Space between slides
+    loop: true,             // Enable continuous loop
+    navigation: {
+      nextEl: ".swiper-button-next",   // Right arrow
+      prevEl: ".swiper-button-prev",   // Left arrow
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,    // Two slides on medium screens
+      },
+      1024: {
+        slidesPerView: 3,    // Three slides on large screens
+      },
+    },
+  });
+</script>
+
+<!--=============== BRANDS ===============-->
+<section class="brands section">
+  <h2 class="section__title">Our Featured Brands</h2>
+
+  <!-- Bootstrap Carousel -->
+  <div id="brandCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#brandCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#brandCarousel" data-slide-to="1"></li>
+      <li data-target="#brandCarousel" data-slide-to="2"></li>
+      <li data-target="#brandCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Carousel Inner -->
+    <div class="carousel-inner">
+      <!-- Brand 1 -->
+      <div class="item active">
+        <img src="https://www.laroche-posay.us/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lrp-us-Library/default/dw7f8b2858/images/homepage/Hero/DRM-la-roche-posay-toleriane-face-moisturizer-hp-desktop-v2.jpg?sw=2000&sh=694&sm=cut&q=70"  class="brand-img" />
+        <div class="carousel-caption">
+          <h3>La Roche-Posay</h3>
+          <p>We partner with dermatologists to stay at the forefront of skincare science, pioneering cutting-edge topics like skin’s microbiome. With over 750+ studies and 25 years of extensive research, we are committed to developing safe and effective products that are dermatologist developed and tested.</p>
+        </div>
+      </div>
+
+      <!-- Brand 2 -->
+      <div class="item">
+        <img src="https://www.kerastase-usa.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kerastase-us-Library/default/dw644d7acb/images/kerastase-brand.jpg?sw=1480&sh=518&sm=cut&q=80" alt="Kérastase" class="brand-img" />
+        <div class="carousel-caption">
+          <h3>Kérastase</h3>
+          <p>Kérastase is the world’s leading luxury professional haircare brand. Born in Paris in 1964, the brand has built its reputation on delivering exceptional performance on scalp and hair through exquisite products and personalized, in-salon treatments, all powered by scientific expertise and professional knowledge. </p>
+        </div>
+      </div>
+
+      <!-- Brand 3 -->
+      <div class="item">
+        <img src="https://cdn.builder.io/api/v1/image/assets%2F60ac0e0e125543a1b832917b7f3068b9%2Fd4a22777f8014ed488899888bb103f41?format=webp&width=2000"  alt="Olaplex" class="brand-img" />
+        <div class="carousel-caption2">
+          <h3>Olaplex</h3>
+          <p>Repair, rebuild, and redefine your clients' curls in one salon visit with new Olaplex Bond Shaper™ Curl Rebuilding Treatment</p>
+        </div>
+      </div>
+
+      <!-- Brand 4 -->
+      <div class="item">
+        <img src="https://www.essie.com/-/media/project/loreal/brand-sites/essie/americas/us/homepage/about-us/about-essie_desktop_1280x720.jpg" alt="MXC Originals" class="brand-img" />
+        <div class="carousel-caption">
+          <h3>essie</h3>
+          <p>essie is an American's nail salon expert. from fashion runways to airport runways, our colors are inspired from around the world. the go to for on-trend and classic colors or efficacious nail care, all essie nail product are vegan and salon quality.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#brandCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#brandCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>
+
+<!--=============== BEST SELLERS ===============-->
+<section class="new section">
+  <h2 class="section__title">Best Sellers</h2>
+  
+  
+<!-- Swiper Container -->
+       <div class="swiper new-swiper container">
+        <div class="swiper-wrapper">
+          <!-- Product 1 -->
+          <div class="swiper-slide">
+            <div class="new__content">
+              <div class="new__tag">Best Seller</div>
+              <img src="https://www.laroche-posay.sg/-/media/project/loreal/brand-sites/lrp/apac/sg/products/effaclar/effaclar-ai/la-roche-posay-face-care-effaclar-ai-targeted-imperfection-corrector-15ml-3433422406704-front.png?cx=0.49&amp;ch=600&amp;cy=0.66&amp;cw=600&hash=C60123AB5D3DC69CBE3B0A2D39223B4F" alt="Effaclar Corrector" class="new__img" />
+              <h3 class="new__title">Effaclar AI Corrector</h3>
+              <span class="new__subtitle">Face Care</span>
+              <div class="new__prices">
+                <span class="new__price">$15.99</span>
+                <span class="new__discount">$20.99</span>
               </div>
               <a href="details.html" class="new__button">
                 <i class="bx bx-cart-alt new__icon"></i>
               </a>
             </div>
           </div>
-
+    
+          <!-- Product 2 -->
+          <div class="swiper-slide">
+            <div class="new__content">
+              <div class="new__tag">Best Seller</div>
+              <img src="https://socialitebeauty.ca/cdn/shop/files/rdn-niacinamide-10pct-zinc-1pct-120ml.png?v=1695414968" alt="Niacinamide Serum" class="new__img" />
+              <h3 class="new__title">Niacinamide 10% + Zinc 1%</h3>
+              <span class="new__subtitle">Skin Care</span>
+              <div class="new__prices">
+                <span class="new__price">$5.99</span>
+                <span class="new__discount">$8.99</span>
+              </div>
+              <a href="details.html" class="new__button">
+                <i class="bx bx-cart-alt new__icon"></i>
+              </a>
+            </div>
+          </div>
+    
+          <!-- Product 3 -->
+          <div class="swiper-slide">
+            <div class="new__content">
+              <div class="new__tag">Best Seller</div>
+              <img src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwa8c028f4/Images/products/The%20Ordinary/rdn-retinol-1pct-in-squalane-30ml.png?sw=900&sh=900&sm=fit" alt="Retinol 1%" class="new__img" />
+              <h3 class="new__title">Retinol 1% in Squalane</h3>
+              <span class="new__subtitle">Skin Care</span>
+              <div class="new__prices">
+                <span class="new__price">$8.99</span>
+                <span class="new__discount">$10.99</span>
+              </div>
+              <a href="details.html" class="new__button">
+                <i class="bx bx-cart-alt new__icon"></i>
+              </a>
+            </div>
+          </div>
+    
+          <!-- Product 4 -->
+          <div class="swiper-slide">
+            <div class="new__content">
+              <div class="new__tag">Best Seller</div>
+              <img src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw711cec9a/Images/products/The%20Ordinary/rdn-azelaic-acid-suspension-10pct-30ml.png?sw=1200&sh=1200&sm=fit" alt="Innisfree Green Tea" class="new__img" />
+              <h3 class="new__title">Azelaic Acid Suspension 10%</h3>
+              <span class="new__subtitle">Face Care</span>
+              <div class="new__prices">
+                <span class="new__price">$18.99</span>
+                <span class="new__discount">$22.99</span>
+              </div>
+              <a href="details.html" class="new__button">
+                <i class="bx bx-cart-alt new__icon"></i>
+              </a>
+            </div>
+          </div>
+    
+          <!-- Product 5 -->
+          <div class="swiper-slide">
+            <div class="new__content">
+              <div class="new__tag">Best Seller</div>
+              <img src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw8b57fa2b/Images/products/The%20Ordinary/ord-glyc-acid-7pct-100ml-Aug-UPC.png?sw=1200&sh=1200&sm=fit" alt="Glycolic Acid 7%" class="new__img" />
+              <h3 class="new__title">Glycolic Acid 7% Toning Solution</h3>
+              <span class="new__subtitle">Skin Care</span>
+              <div class="new__prices">
+                <span class="new__price">$8.99</span>
+                <span class="new__discount">$12.99</span>
+              </div>
+              <a href="details.html" class="new__button">
+                <i class="bx bx-cart-alt new__icon"></i>
+              </a>
+            </div>
+          </div>
+    
         </div>
-      </section>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script>
+      // Swiper for New Arrivals Section
+      var swiper = new Swiper(".new-swiper", {
+        slidesPerView: 1,       // Adjust number of visible slides
+        spaceBetween: 10,       // Space between slides
+        loop: true,             // Enable continuous loop
+        navigation: {
+          nextEl: ".swiper-button-next",   // Right arrow
+          prevEl: ".swiper-button-prev",   // Left arrow
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,    // Two slides on medium screens
+          },
+          1024: {
+            slidesPerView: 3,    // Three slides on large screens
+          },
+        },
+      });
+    </script>
+    
+
 
        <!--=============== STEPS ===============-->
        <section class="steps section container">
@@ -300,8 +598,68 @@
        </section>
    </main>
 
-    <!--=============== FOOTER ===============-->
-    <footer class="footer section"></footer>
+
+<!--=============== FOOTER ===============-->
+<footer class="footer section">
+  <div class="footer__container container">
+    <div class="footer__about full-width">
+      <h3 class="footer__title">About Us</h3>
+      <p class="footer__description">
+        At aura+, we believe in the power of natural beauty. Our mission is to provide high-quality skincare and personal care products that enhance your natural glow.
+      </p>
+      <p class="footer__description">
+        Join us on our journey to better skin, hair, and self-care.
+      </p>
+    </div>
+  </div>
+  
+  <div class="footer__container container">
+    <div class="footer__links">
+      <h3 class="footer__title">Quick Links</h3>
+      <ul class="footer__list">
+        <li><a href="index.html" class="footer__link">Home</a></li>
+        <li><a href="shop.html" class="footer__link">Shop</a></li>
+        <li><a href="contact.html" class="footer__link">Contact</a></li>
+        <li><a href="faq.html" class="footer__link">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__customer-service">
+      <h3 class="footer__title">Customer Service</h3>
+      <ul class="footer__list">
+        <li><a href="return-policy.html" class="footer__link">Return Policy</a></li>
+        <li><a href="shipping-info.html" class="footer__link">Shipping Information</a></li>
+        <li><a href="privacy-policy.html" class="footer__link">Privacy Policy</a></li>
+        <li><a href="terms.html" class="footer__link">Terms of Service</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__social-media">
+      <h3 class="footer__title">Follow Us</h3>
+      <div class="footer__social-icons">
+        <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+          <i class="bx bxl-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="https://www.twitter.com" target="_blank" class="footer__social-link">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" class="footer__social-link">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2024 aura+. All rights reserved.</p>
+  </div>
+</footer>
+
+
 
     <!--=============== SCROLL UP ===============-->
 

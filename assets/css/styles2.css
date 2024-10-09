@@ -94,10 +94,10 @@ input {
 
 /*=============== LAYOUT ===============*/
 .container {
-  max-width: 968px;
+  
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
+
 
 }
 
@@ -118,6 +118,33 @@ input {
   display: flex;
   justify-content: center; /* Center content horizontally */
   align-items: center;     /* Center content vertically */
+}
+
+/*=============== HERO HEADER ===============*/
+.hero-header {
+  background-image: url('path-to-your-hero-image.jpg'); /* Add a background image */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0; /* Space above and below the content */
+  text-align: center; /* Center the text */
+  color: #fff; /* White text color */
+}
+
+.hero-title {
+  font-size: 2.5rem; /* Larger font for the title */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.hero-subtitle {
+  font-size: 1.2rem; /* Subtitle font size */
+  margin-bottom: 20px; /* Space below the subtitle */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Button color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  text-decoration: none; /* Remove underline */
 }
 
 /*=============== NAV ===============*/
@@ -590,6 +617,69 @@ input {
   padding: 10px;
   border-radius: 5px;
 }
+/*=============== BRANDS ===============*/
+.brand-img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.carousel-caption h3 {
+  font-size: 3rem; /* Larger font size for the brand name */
+  color: black;
+}
+
+.carousel-caption p {
+  font-size: 1.4rem; /* Standard font size for the description */
+  margin-top: 10px; /* Space between title and description */
+  color: black;
+
+} 
+
+.carousel-caption2 h3 {
+  font-size: 3rem; /* Larger font size for the brand name */
+  color: black;
+}
+
+.carousel-caption2 p {
+  font-size: 1.4rem; /* Standard font size for the description */
+  margin-top: 10px; /* Space between title and description */
+  color: black;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  background: transparent;  /*transparent background */
+  color: #000000; /* Black text color */
+  text-align: center; /* Center align text */
+  padding: 20px; /* Padding around text */
+  border-radius: 10px; /* Rounded corners */
+  width: 90%; /* Take up most of the width */
+  max-width: 400px; /* Max width to prevent overflow */
+  box-shadow:none; /* Remove default box shadow */
+}
+
+.carousel-caption2 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  background: transparent;  /*transparent background */
+  color: #000000; /* Black text color */
+  text-align: center; /* Center align text */
+  padding: 20px; /* Padding around text */
+  border-radius: 10px; /* Rounded corners */
+  width: 90%; /* Take up most of the width */
+  max-width: 400px; /* Max width to prevent overflow */
+  box-shadow:none; /* Remove default box shadow */
+}
+
+
+/*=============== BEST SELLERS ===============*/
+
 
 /*=============== FAQ PAGE ===============*/
 
@@ -612,11 +702,7 @@ body {
   background-color: #f8f8f8;
 }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
+
 
 /* Contact Section */
 .contact-section {
@@ -775,6 +861,100 @@ p {
 
 
 /*=============== FOOTER ===============*/
+.footer {
+  background-color: #f8f8f8; /* Light background color */
+  padding: 40px 0; /* Padding around the footer */
+  text-align: left; /* Align text to the left */
+}
+
+.footer__container {
+  display: flex; /* Flexbox layout for footer sections */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  justify-content: space-between; /* Space between sections */
+}
+
+.footer__about,
+.footer__links,
+.footer__customer-service,
+.footer__social-media {
+  flex: 1; /* Each section takes equal space */
+  margin: 10px; /* Margin for spacing */
+}
+
+.footer__title {
+  font-size: 3rem; /* Title font size */
+  margin-bottom: 15px; /* Space below titles */
+  color: #333; /* Dark text color for titles */
+}
+
+.footer__description {
+  font-size: 1.5rem; /* Smaller font size for descriptions */
+  color: #666; /* Gray color for text */
+  line-height: 1.6; /* Line height for readability */
+}
+
+.footer__list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+.footer__link {
+  display: block; /* Block display for links */
+  color: #000000; /* Link color */
+  text-decoration: none; /* Remove underline */
+  margin-bottom: 8px; /* Space between links */
+}
+
+.footer__link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer__social-media {
+  text-align: center; /* Center the title and icons */
+  margin-top: 20px; /* Space above the section */
+}
+
+.footer__social-icons {
+  margin-top: 10px; /* Space between title and icons */
+}
+
+.footer__social-link {
+  margin: 0 10px; /* Horizontal space between icons */
+  color: #333; /* Icon color */
+  font-size: 24px; /* Icon size */
+  transition: color 0.3s; /* Transition effect for hover */
+}
+
+.footer__social-link:hover {
+  color: #007bff; /* Change color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.footer__bottom {
+  text-align: center; /* Centered text */
+  margin-top: 20px; /* Margin for spacing */
+  font-size: 0.8rem; /* Smaller font size */
+  color: #999; /* Light gray color */
+}
+
+.footer__about {
+  text-align: center;
+  background-color: transparent; /* Optional: Background color for visibility */
+  padding: 20px; /* Add padding */
+  font-size: 2rem;
+}
+
+.full-width {
+  flex-basis: 100%; /* Full width */
+  margin-bottom: 20px; /* Space below the about section */
+}
+
+.footer__container {
+  display: flex; /* Flexbox layout */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  justify-content: space-between; /* Space between sections */
+}
+
 
 
 /*=============== SCROLL UP ===============*/
