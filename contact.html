@@ -42,17 +42,28 @@
     <header class="header" id="header">
       <nav class="nav container">
         <a href="index.html" class="nav_logo">
-          <i class="bx bxs-shopping-bag nav_logo-icon"></i> SkinCare
+          <i class="bx bxs-shopping-bag nav_logo-icon"></i> aura+
         </a>
 
         <div class="nav__menu">
           <ul class="nav_list">
             <li class="nav_item">
-              <a href="index.html" class="nav__link ">Home</a>
+              <a href="index.html" class="nav__link">Home</a>
             </li>
-            <li class="nav_item">
-              <a href="shop.html" class="nav__link">Products</a>
+
+            <li class="nav-item dropdown nav_item">
+       
+              <a class="nav__link dropdown-toggle" href="shop.html" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+                Products
+              </a>
+              <div class="nav__link dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="nav__link dropdown-item" href="skincare.html">Skin Care</a>
+                <a class="nav__link dropdown-item" href="haircare.html">Hair Care</a>
+                <a class="nav__link dropdown-item" href="nailcare.html">Nail Care</a>
+                <a class="nav__link dropdown-item" href="mencare.html">Men's Care</a>
+              </div>
             </li>
+            
 
             <li class="nav_item">
               <a href="contact.html" class="nav__link active-link">Contact</a>
@@ -66,6 +77,17 @@
         </div>
 
         <div class="nav__btns">
+          <div class="nav_search">
+            <form class="form-inline">
+              <div class="search-container">
+                <input class="form-control search-input" type="search" placeholder="Search products" aria-label="Search">
+                <button class="search-btn" type="submit">
+                  <i class="bx bx-search"></i> <!-- Using Boxicons for the search icon -->
+                </button>
+              </div>
+            </form>
+            
+          </div>
           <div class="login_toggle" id="login-toggle">
             <i
               class="bx bx-user"
@@ -74,9 +96,11 @@
             ></i>
           </div>
 
+
           <div class="nav_shop" id="cart-shop">
             <i class="bx bxs-shopping-bag"></i>
           </div>
+
 
                 <!-- Hamburger Menu for Mobile -->
       <div class="nav_toggle" id="nav-toggle">
@@ -89,7 +113,90 @@
 
     <!--=============== CART ===============-->
     <div class="cart" id="cart">
-        
+      <i class="bx bx-x cart__close"></i>
+      <h2 class="cart__title-center">My Cart</h2>
+      <div class="cart__container">
+        <article class="cart__card">
+          <div class="cart__box">
+            <img src="https://socialitebeauty.ca/cdn/shop/files/rdn-niacinamide-10pct-zinc-1pct-120ml.png?v=1695414968" alt ="" class="cart__img">
+          </div>
+  
+          <div class="cart__details">
+            <h3 class="cart__title">Niacinamide</h3>
+            <span class="cart__price">$5.99</span>
+  
+            <div class="cart__amount">
+              <div class="cart__amount-content">
+                <span class="cart__amount-box">
+                  <i class="bx bx-minus"></i>
+                </span>
+                <span class="cart__amount-number">1</span>
+                <span class="cart__amount-box">
+                  <i class="bx bx-plus"></i>
+                </span>
+              </div>
+            <i class="bx bx-trash-alt cart__amount-trash"></i>
+
+            </div>
+          </div>
+  
+        </article>
+        <article class="cart__card">
+          <div class="cart__box">
+            <img src="https://tdawi.com/media/webp_image/catalog/product/cache/c02fd180406f0a5f799ad7095a14ddcd/r/d/rdn-aha-30pct-bha-2pct-peeling-solution-30ml.webp" alt ="" class="cart__img">
+          </div>
+  
+          <div class="cart__details">
+            <h3 class="cart__title">Peeling Solution</h3>
+            <span class="cart__price">$7.99</span>
+  
+            <div class="cart__amount">
+              <div class="cart__amount-content">
+                <span class="cart__amount-box">
+                  <i class="bx bx-minus"></i>
+                </span>
+                <span class="cart__amount-number">1</span>
+                <span class="cart__amount-box">
+                  <i class="bx bx-plus"></i>
+                </span>
+              </div>
+            <i class="bx bx-trash-alt cart__amount-trash"></i>
+
+            </div>
+          </div>
+  
+        </article>
+        <article class="cart__card">
+          <div class="cart__box">
+            <img src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwa8c028f4/Images/products/The%20Ordinary/rdn-retinol-1pct-in-squalane-30ml.png?sw=900&sh=900&sm=fit" alt ="" class="cart__img">
+          </div>
+  
+          <div class="cart__details">
+            <h3 class="cart__title">Retinol</h3>
+            <span class="cart__price">$8.99</span>
+  
+            <div class="cart__amount">
+              <div class="cart__amount-content">
+                <span class="cart__amount-box">
+                  <i class="bx bx-minus"></i>
+                </span>
+                <span class="cart__amount-number">1</span>
+                <span class="cart__amount-box">
+                  <i class="bx bx-plus"></i>
+                </span>
+              </div>
+              <i class="bx bx-trash-alt cart__amount-trash"></i>
+            </div>
+          </div>
+  
+        </article>
+      </div>
+
+      <div class="cart__prices">
+        <span class="cart__prices-item">2 items</span>
+        <span class="cart__prices-total">$22.97</span>
+      </div>
+
     </div>
 
     <!--=============== LOGIN ===============-->

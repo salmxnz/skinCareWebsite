@@ -6,27 +6,10 @@
 }
 
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: #333;
-  background-color: #f4f4f4; /* Light gray background */
   line-height: 1.6;
   padding-top: 50px; /* Add padding to the very top */
 }
 
-/* Navigation Styles */
-.page-header nav {
-  background-color: white;
-  border-bottom: 1px solid #e0e0e0;
-  padding: 10px 0;
-}
-
-.page-header nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
 .page-header nav ul li {
   margin: 0 15px;
@@ -114,41 +97,4 @@ p {
   color: #888;
   background-color: #f0f0f0;
   border-top: 1px solid #e0e0e0;
-}
-
-/* Navigation Styles */
-.page-header nav {
-  background-color: white; /* Ensure the background is white */
-  border-bottom: 1px solid #e0e0e0;
-  padding: 10px 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1000; /* Ensure it stays on top of other elements */
-}
-
-.page-header nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.page-header nav ul li {
-  margin: 0 15px;
-}
-
-.page-header nav ul li a {
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 5px 10px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.page-header nav ul li a:hover {
-  background-color: #f0f0f0;
 }

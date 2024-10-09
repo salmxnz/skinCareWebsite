@@ -609,9 +609,7 @@ input {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
   background-color: #f8f8f8;
-  color: #333;
 }
 
 .container {
@@ -622,7 +620,6 @@ body {
 
 /* Contact Section */
 .contact-section {
-  background: linear-gradient(135deg, #f2f2f2, #e9e9e9);
   padding: 60px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
