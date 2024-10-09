@@ -5,7 +5,7 @@
     display: none;
     flex-direction: column;
     position: fixed;
-    top: var(--header-height);
+    top: calc(var(--header-height) + 4.6rem);
     right: 0;
     background: var(--container-color);
     width: 230px;
