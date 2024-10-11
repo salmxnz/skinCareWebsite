@@ -55,7 +55,7 @@
         }
 
         .faq-item {
-            background-color: #f9f9f9;
+            background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
             margin-bottom: 20px;
@@ -109,7 +109,7 @@
     </style>
 </head>
 <body>
-    <!--=============== HEADER ===============-->
+
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
       <nav class="nav container">
@@ -120,7 +120,7 @@
         <div class="nav__menu">
           <ul class="nav_list">
             <li class="nav_item">
-              <a href="index.html" class="nav__link active-link">Home</a>
+              <a href="index.html" class="nav__link ">Home</a>
             </li>
 
             <li class="nav-item dropdown nav_item">
@@ -142,24 +142,13 @@
             </li>
 
             <li class="nav_item">
-              <a href="faq.html" class="nav__link">FAQ</a>
+              <a href="faq.html" class="nav__link active-link" >FAQ</a>
             </li>
 
           </ul>
         </div>
 
         <div class="nav__btns">
-          <div class="nav_search">
-            <form class="form-inline">
-              <div class="search-container">
-                <input class="form-control search-input" type="search" placeholder="Search products" aria-label="Search">
-                <button class="search-btn" type="submit">
-                  <i class="bx bx-search"></i> <!-- Using Boxicons for the search icon -->
-                </button>
-              </div>
-            </form>
-            
-          </div>
           <div class="login_toggle" id="login-toggle">
             <i
               class="bx bx-user"
@@ -224,8 +213,54 @@
 
     <!--=============== FOOTER ===============-->
     <footer class="footer section">
-        <!-- Footer Content Here -->
+
+      
+      <div class="footer__container container">
+        <div class="footer__links">
+          <h3 class="footer__title">Quick Links</h3>
+          <ul class="footer__list">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="shop.html" class="footer__link">Shop</a></li>
+            <li><a href="contact.html" class="footer__link">Contact</a></li>
+            <li><a href="faq.html" class="footer__link">FAQ</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer__customer-service">
+          <h3 class="footer__title">Customer Service</h3>
+          <ul class="footer__list">
+            <li><a href="return-policy.html" class="footer__link">Return Policy</a></li>
+            <li><a href="shipping-info.html" class="footer__link">Shipping Information</a></li>
+            <li><a href="privacy-policy.html" class="footer__link">Privacy Policy</a></li>
+            <li><a href="terms.html" class="footer__link">Terms of Service</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer__social-media">
+          <h3 class="footer__title">Follow Us</h3>
+          <div class="footer__social-icons">
+            <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="footer__social-link">
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="footer__social-link">
+              <i class="bx bxl-linkedin"></i>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    
+      <div class="footer__bottom">
+        <p>&copy; 2024 aura+. All rights reserved.</p>
+      </div>
     </footer>
+    
 
     <!--=============== JS ===============-->
     <script>

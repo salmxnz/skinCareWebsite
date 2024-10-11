@@ -635,15 +635,11 @@ input {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 5px;
+  text-shadow: none;
 }
 
 /*=============== CART PAGE ===============*/
-/* General Styles */
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
+
 
 
 
@@ -729,7 +725,6 @@ body {
   cursor: pointer;
   color: #888;
 }
-
 .cartpage__summary {
   margin-top: 2rem;
   text-align: center;
@@ -746,9 +741,38 @@ body {
   margin-bottom: 1rem;
 }
 
+.cartpage__summary-subtotal,
+.cartpage__summary-shipping,
 .cartpage__summary-total {
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.cartpage__discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.cartpage__discount input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+
+.cartpage__apply-button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.cartpage__apply-button:hover {
+  background-color: #555;
 }
 
 .cartpage__checkout-button {
@@ -760,7 +784,7 @@ body {
   border-radius: 0.5rem;
   text-decoration: none;
   font-weight: bold;
-  cursor: pointer;
+  cursor: pointer
 }
 
 /* Additional Styles */
@@ -775,9 +799,9 @@ body {
 /*=============== BRANDS ===============*/
 .brand-img {
   width: 100%;
-  height: auto;
-  max-height: 500px;
-  object-fit: contain;
+  height: 100%;
+  max-height: 100%;
+
 }
 
 .carousel-caption h3 {
