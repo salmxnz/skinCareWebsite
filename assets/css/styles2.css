@@ -472,7 +472,7 @@ input {
   box-shadow: -2px 0 4px var(--shadow);
   height: 100%;
   top: 0;
-  right: -100%;
+  right: -150%;
   padding: 3.5rem 2rem;
   transition: 0.3s;
 }
