@@ -153,13 +153,12 @@ input {
 /*=============== NAV ===============*/
 .nav {
   width: 100%;
-  /* max-width: 1200px; */
+  max-width: 1400px;
   height: calc(var(--header-height) + 2rem);
   display: flex;
   justify-content: space-between;
   align-items: center; /* Changed from align-content to align-items */
   column-gap: 3em;
-  /* background-color: yellow; */
 }
 
 .login_toggle,
@@ -167,7 +166,6 @@ input {
 .nav_toggle,
 .nav_shop {
   color: var(--title-color) ;
-  /* color: var(--beige-color); */
 }
 
 .nav_logo {
