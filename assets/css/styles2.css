@@ -613,10 +613,13 @@ input {
 
 /* Bootstrap carousel custom styling */
 .carousel-inner img {
-  max-height: 500px;
+  max-height: 400px;
   object-fit: cover;
 }
 
+.carousel-inner{
+  height: 300px;
+}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   filter: invert(1); /* Change icon color to white */
