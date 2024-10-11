@@ -114,6 +114,7 @@ input {
   background: #fff;
   /* background: var(--container-color); */
   /* box-shadow: 0 2px 4px var(--shadow); */
+  top: 0;
   position: fixed;
   left: 0;
   z-index: var(--z-fixed);
@@ -613,7 +614,7 @@ input {
 
 /* Bootstrap carousel custom styling */
 .carousel-inner img {
-  max-height: 400px;
+  max-height: 40rem;
   object-fit: cover;
 }
 

@@ -69,4 +69,16 @@
     right: -150%;
     transition: 0s;
   }
+
+  .carousel-inner img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  .carousel-inner{
+    height: 200px;
+  }
+
+  img.brand-img{
+    height: 500px;
+  }
 }
