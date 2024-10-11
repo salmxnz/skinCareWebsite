@@ -70,20 +70,19 @@
         .faq-item h3 {
             font-size: 1.8rem;
             cursor: pointer;
-            color: #007BFF;
             transition: color 0.3s ease;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
         .faq-item h3:hover {
-            color: #0056b3;
+            color: var(--mint-color);
         }
 
         /* Dropdown Arrow */
         .dropdown-btn {
             font-size: 1.5rem;
-            color: #007BFF;
+            color: var(--mint-color);
             transition: transform 0.3s ease;
         }
         .faq-item.active .dropdown-btn {
@@ -96,6 +95,8 @@
             color: #555;
             margin-top: 10px;
             line-height: 1.8;
+            text-align: left;
+            margin-bottom: 0;
         }
         .faq-item.active p {
             display: block;
@@ -109,77 +110,78 @@
 </head>
 <body>
     <!--=============== HEADER ===============-->
+    <!--=============== HEADER ===============-->
     <header class="header" id="header">
-        <nav class="nav container">
-          <a href="index.html" class="nav_logo">
-            <i class="bx bxs-shopping-bag nav_logo-icon"></i> SkinCare
-          </a>
-  
-          <div class="nav__menu">
-            <ul class="nav_list">
-              <li class="nav_item">
-                <a href="index.html" class="nav__link">Home</a>
-              </li>
-  
-              <li class="nav-item dropdown nav_item">
-         
-                <a class="nav__link dropdown-toggle" href="shop.html" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
-                  Products
-                </a>
-                <div class="nav__link dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="nav__link dropdown-item" href="skincare.html">Skin Care</a>
-                  <a class="nav__link dropdown-item" href="haircare.html">Hair Care</a>
-                  <a class="nav__link dropdown-item" href="nailcare.html">Nail Care</a>
-                  <a class="nav__link dropdown-item" href="mencare.html">Men's Care</a>
-                </div>
-              </li>
-              
-  
-              <li class="nav_item">
-                <a href="contact.html" class="nav__link">Contact</a>
-              </li>
-  
-              <li class="nav_item">
-                <a href="faq.html" class="nav__link active-link">FAQ</a>
-              </li>
-  
-            </ul>
-          </div>
-  
-          <div class="nav__btns">
-            <div class="nav_search">
-              <form class="form-inline">
-                <div class="search-container">
-                  <input class="form-control search-input" type="search" placeholder="Search products" aria-label="Search">
-                  <button class="search-btn" type="submit">
-                    <i class="bx bx-search"></i> <!-- Using Boxicons for the search icon -->
-                  </button>
-                </div>
-              </form>
-              
-            </div>
-            <div class="login_toggle" id="login-toggle">
-              <i
-                class="bx bx-user"
-                onmouseover="this.className='bx bxs-user'"
-                onmouseout="this.className='bx bx-user'"
-              ></i>
-            </div>
-  
-  
-            <div class="nav_shop" id="cart-shop">
-              <i class="bx bxs-shopping-bag"></i>
-            </div>
-  
-  
-                  <!-- Hamburger Menu for Mobile -->
-        <div class="nav_toggle" id="nav-toggle">
-          <i class="bx bx-grid-alt"></i>
+      <nav class="nav container">
+        <a href="index.html" class="nav_logo">
+          <i class="bx bxs-shopping-bag nav_logo-icon"></i> aura+
+        </a>
+
+        <div class="nav__menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="index.html" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav-item dropdown nav_item">
+       
+              <a class="nav__link dropdown-toggle" href="shop.html" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+                Products
+              </a>
+              <div class="nav__link dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="nav__link dropdown-item" href="skincare.html">Skin Care</a>
+                <a class="nav__link dropdown-item" href="haircare.html">Hair Care</a>
+                <a class="nav__link dropdown-item" href="nailcare.html">Nail Care</a>
+                <a class="nav__link dropdown-item" href="mencare.html">Men's Care</a>
+              </div>
+            </li>
+            
+
+            <li class="nav_item">
+              <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="faq.html" class="nav__link">FAQ</a>
+            </li>
+
+          </ul>
         </div>
-            </div>
+
+        <div class="nav__btns">
+          <div class="nav_search">
+            <form class="form-inline">
+              <div class="search-container">
+                <input class="form-control search-input" type="search" placeholder="Search products" aria-label="Search">
+                <button class="search-btn" type="submit">
+                  <i class="bx bx-search"></i> <!-- Using Boxicons for the search icon -->
+                </button>
+              </div>
+            </form>
+            
           </div>
-        </nav>
-      </header>
+          <div class="login_toggle" id="login-toggle">
+            <i
+              class="bx bx-user"
+              onmouseover="this.className='bx bxs-user'"
+              onmouseout="this.className='bx bx-user'"
+            ></i>
+          </div>
+
+
+          <div class="nav_shop" id="cart-shop">
+            <i class="bx bxs-shopping-bag"></i>
+          </div>
+
+
+                <!-- Hamburger Menu for Mobile -->
+      <div class="nav_toggle" id="nav-toggle">
+        <i class="bx bx-grid-alt"></i>
+      </div>
+          </div>
+        </div>
+      </nav>
+    </header>
   
     <!--=============== FAQ SECTION ===============-->
     <section class="faq-section">

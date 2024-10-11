@@ -62,4 +62,9 @@
   background-color: var(--mint-color);
   
   }
+
+  .cart{
+    right: -150%;
+    transition: 0s;
+  }
 }
