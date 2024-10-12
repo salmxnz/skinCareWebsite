@@ -636,11 +636,33 @@ input {
   text-shadow: none;
 }
 
-/*=============== CART PAGE ===============*/
+.cart__empty {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
 
+.cart__empty-message {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
 
+.cart__browse-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
 
-
+.cart__browse-link:hover {
+  background-color: #0056b3;
+}
 
 /* Cart Page Styles */
 .cartpage {
@@ -1035,7 +1057,146 @@ body {
   }
 }
 
+/*=============== CHECKOUT ===============*/
+/* Checkout Page Styles */
+.checkout__page {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+.checkout__title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.checkout__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.checkout__form-group {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout__form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.checkout__form-group input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+
+.checkout__summary {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkout__button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.checkout__button:hover {
+  background-color: #555;
+}
+  /*=============== FOOTER ===============*/
+  .footer {
+    background-color: #f8f8f8; /* Light background color */
+    padding: 40px 0; /* Padding around the footer */
+    text-align: left; /* Align text to the left */
+  }
+  .footer__container {
+    display: flex; /* Flexbox layout for footer sections */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: space-between; /* Space between sections */
+  }
+  .footer__about,
+  .footer__links,
+  .footer__customer-service,
+  .footer__social-media {
+    flex: 1; /* Each section takes equal space */
+    margin: 10px; /* Margin for spacing */
+  }
+  .footer__title {
+    font-size: 3rem; /* Title font size */
+    margin-bottom: 15px; /* Space below titles */
+    color: #333; /* Dark text color for titles */
+  }
+  .footer__description {
+    font-size: 1.5rem; /* Smaller font size for descriptions */
+    color: #666; /* Gray color for text */
+    line-height: 1.6; /* Line height for readability */
+  }
+  .footer__list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+  }
+  .footer__link {
+    display: block; /* Block display for links */
+    color: #000000; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 8px; /* Space between links */
+  }
+  .footer__link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  .footer__social-media {
+    text-align: center; /* Center the title and icons */
+    margin-top: 20px; /* Space above the section */
+  }
+  .footer__social-icons {
+    margin-top: 10px; /* Space between title and icons */
+  }
+  .footer__social-link {
+    margin: 0 10px; /* Horizontal space between icons */
+    color: #333; /* Icon color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s; /* Transition effect for hover */
+  }
+  .footer__social-link:hover {
+    color: #007bff; /* Change color on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  .footer__bottom {
+    text-align: center; /* Centered text */
+    margin-top: 20px; /* Margin for spacing */
+    font-size: 0.8rem; /* Smaller font size */
+    color: #999; /* Light gray color */
+  }
+  
+  .footer__about {
+    text-align: center;
+    background-color: transparent; /* Optional: Background color for visibility */
+    padding: 20px; /* Add padding */
+    font-size: 2rem;
+  }
+
+    .footer__container {
+      display: flex; /* Flexbox layout */
+      flex-wrap: wrap; /* Allow wrapping for smaller screens */
+      justify-content: space-between; /* Space between sections */ 
+}
 
 /*=============== SCROLL UP ===============*/
 
