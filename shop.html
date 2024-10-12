@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="assets/css/styles2.css" />
     <link rel="stylesheet" href="assets/css/colors/color-1.css" />
     <link rel="stylesheet" href="assets/css/stylesMobile.css" />
+    <link rel="stylesheet" href="assets/css/shop.css" />
+
 
     <!-- ============ NAVBAR Script ============ -->
     <script src="assets/js/navbarToggle.js"></script>
@@ -113,13 +115,530 @@
     <main class="main">
         <!--=============== SHOP ===============-->
         <section class="shop section container">
+          <h2 class="section__title">Our Products</h2>
+          <div class="shop__layout">
+              <!-- Filter Sidebar -->
+              <aside class="shop__filter">
+                  <h3 class="shop__filter-title">Filter By</h3>
+                  <form class="shop__filter-form" onsubmit="filterProducts(); return false;">
+                      <div class="shop__filter-group">
+                          <label for="category">Category</label>
+                          <select id="category" name="category" onchange="filterProducts()">
+                              <option value="all">All</option>
+                              <option value="skincare">Skin Care</option>
+                              <option value="haircare">Hair Care</option>
+                              <option value="nailcare">Nail Care</option>
+                              <option value="menscare">Men's Care</option>
+                          </select>
+                      </div>
 
-        </section>
+                      <div class="shop__sort">
+                        <label for="sort">Sort By:</label>
+                        <select id="sort" name="sort" onchange="sortProducts()">
+                            <option value="default">Default</option>
+                            <option value="price-asc">Price: Low to High</option>
+                            <option value="price-desc">Price: High to Low</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="shop__filter-button">Apply Filters</button>
+                  </form>
+              </aside>
+
+              <!-- Products -->
+              <div class="shop__container">
+                  <!--  Hair Care -->
+                  <article class="shop__card" data-price="7.99" data-category="haircare">
+                    <div class="shop__box">
+                        <img src="https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/ca48881ec8742e134d7a755b59ee4d8961801a94-600x600.jpg?w=768&h=660&fit=fill&auto=format&q=80&bg=fff" alt="Tresemme Keratin Smooth Shampoo" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Tresemme Keratin Smooth Shampoo</h3>
+                        <p class="shop__description">Professional formula for nourished, smooth hair.</p>
+                        <span class="shop__price">$7.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+
+                </article>
+                
+                <article class="shop__card" data-price="8.49" data-category="haircare">
+                    <div class="shop__box">
+                        <img src="https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/76510f2eb5a5f48062843f02789cf019b17af94f-600x600.jpg?w=768&h=660&fit=fill&auto=format&q=80&bg=fff" alt="Tresemme Moisture Rich Conditioner" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Tresemme Moisture Rich Conditioner</h3>
+                        <p class="shop__description">Provides intense moisture for dry hair.</p>
+                        <span class="shop__price">$8.49</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                    
+                </article>
+                
+                <article class="shop__card" data-price="9.99" data-category="haircare">
+                    <div class="shop__box">
+                        <img src="https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/504ddf32a2aee5cf487469255b8ae4c7ffb50dbb-2880x2880.png?w=768&h=660&fit=fill&auto=format&q=80&bg=fff" alt="Tresemme Volume & Lift Mousse" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Tresemme Volume & Lift Mousse</h3>
+                        <p class="shop__description">Adds volume and lift for fuller-looking hair.</p>
+                        <span class="shop__price">$9.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="10.99" data-category="haircare">
+                    <div class="shop__box">
+                        <img src="https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/60419a86bd50fbd64d5825997c2f33d61325bc75-1200x1200.jpg?w=768&h=660&fit=fill&auto=format&q=80&bg=fff" alt="Tresemme Extra Hold Hair Spray" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Tresemme Extra Hold Hair Spray</h3>
+                        <p class="shop__description">Provides all-day hold with a lightweight feel.</p>
+                        <span class="shop__price">$10.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                  <!--  Men's Care -->
+                  <article class="shop__card" data-price="14.99" data-category="menscare">
+                    <div class="shop__box">
+                        <img src="https://www.themancompany.com/cdn/shop/files/1_93dbca69-bdfe-4c96-8886-c25db14eea0d_765x.jpg?v=1698300482" alt="Charcoal Face Wash" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Charcoal Face Wash</h3>
+                        <p class="shop__description">Deep cleansing face wash for oily skin.</p>
+                        <span class="shop__price">$14.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="19.99" data-category="menscare">
+                    <div class="shop__box">
+                        <img src="https://www.themancompany.com/cdn/shop/files/BLANC-CURATION-primary_765x.jpg?v=1707995607" alt="Blanc Fragrance Collection" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Blanc Fragrance Collection</h3>
+                        <p class="shop__description">Sophisticated fragrances for everyday freshness.</p>
+                        <span class="shop__price">$19.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="24.99" data-category="menscare">
+                    <div class="shop__box">
+                        <img src="https://www.themancompany.com/cdn/shop/files/bathe-me-up-combo_765x.jpg?v=1710747693" alt="Bathe Me Up Combo" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Bathe Me Up Combo</h3>
+                        <p class="shop__description">Complete bathing essentials for a refreshing shower.</p>
+                        <span class="shop__price">$24.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="9.99" data-category="menscare">
+                    <div class="shop__box">
+                        <img src="https://www.themancompany.com/cdn/shop/products/2_3503743c-c666-4238-a849-38745ae2d6c4_765x.jpg?v=1683107177" alt="Beard Oil" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Beard Oil</h3>
+                        <p class="shop__description">Nourishing beard oil for a fuller, healthier look.</p>
+                        <span class="shop__price">$9.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="12.99" data-category="menscare">
+                    <div class="shop__box">
+                        <img src="https://www.themancompany.com/cdn/shop/files/1_9567556f-f7f1-4f76-b753-1e4a3c323385_765x.jpg?v=1691395134" alt="Hair Styling Gel" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Hair Styling Gel</h3>
+                        <p class="shop__description">Hold and style your hair effortlessly.</p>
+                        <span class="shop__price">$12.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="15.99" data-category="menscare">
+                    <div class="shop__box">
+                        <img src="https://www.themancompany.com/cdn/shop/products/body-care-duo-front_765x.png?v=1605566922" alt="Body Care Duo" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Body Care Duo</h3>
+                        <p class="shop__description">Two essential body care products for smooth skin.</p>
+                        <span class="shop__price">$15.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="17.99" data-category="menscare">
+                    <div class="shop__box">
+                        <img src="https://www.themancompany.com/cdn/shop/products/fresh-feeling_765x.png?v=1650618687" alt="Fresh Feeling Set" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Fresh Feeling Set</h3>
+                        <p class="shop__description">Stay fresh all day with this men's grooming set.</p>
+                        <span class="shop__price">$17.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                  <!-- Nail Care -->
+                  <article class="shop__card" data-price="12.99" data-category="nailcare">
+                    <div class="shop__box">
+                        <img src="https://uk.manucurist.com/cdn/shop/products/image_12.jpg?v=1665588949&width=360" alt="Green Nail Polish" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Green Nail Polish</h3>
+                        <p class="shop__description">Vegan nail polish with a long-lasting formula.</p>
+                        <span class="shop__price">$12.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="8.99" data-category="nailcare">
+                    <div class="shop__box">
+                        <img src="https://dependcosmetic.com/wp-content/uploads/2019/09/3345-Cuticle-Cream-F%C3%B6rpackning-768x768.jpg" alt="Cuticle Cream" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Cuticle Cream</h3>
+                        <p class="shop__description">Nourishing cream for healthy cuticles.</p>
+                        <span class="shop__price">$8.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="10.49" data-category="nailcare">
+                    <div class="shop__box">
+                        <img src="https://dependcosmetic.com/wp-content/uploads/2024/01/3341-Kickstart-Nail-Care-forpackning-rev1-300x360.jpg" alt="Kickstart Nail Care" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Kickstart Nail Care</h3>
+                        <p class="shop__description">Revitalizing care for brittle nails.</p>
+                        <span class="shop__price">$10.49</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="9.99" data-category="nailcare">
+                    <div class="shop__box">
+                        <img src="https://dependcosmetic.com/wp-content/uploads/2019/09/3346-gingeng-nagelserum-inneh%C3%A5ll-300x360.jpg" alt="Ginger Nail Serum" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Ginger Nail Serum</h3>
+                        <p class="shop__description">Strengthening serum for healthy nails.</p>
+                        <span class="shop__price">$9.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="14.99" data-category="nailcare">
+                    <div class="shop__box">
+                        <img src="https://dependcosmetic.com/wp-content/uploads/2018/07/8944-3-step-action-kit-inneh%C3%A5ll-300x360.jpg" alt="3-Step Action Kit" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">3-Step Action Kit</h3>
+                        <p class="shop__description">Complete kit for nail care and maintenance.</p>
+                        <span class="shop__price">$14.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="11.49" data-category="nailcare">
+                    <div class="shop__box">
+                        <img src="https://dependcosmetic.com/wp-content/uploads/2018/07/8954-stop-tip-split-inneh%C3%A5ll-300x360.jpg" alt="Stop Tip Split" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Stop Tip Split</h3>
+                        <p class="shop__description">Prevents nail splitting and breaking.</p>
+                        <span class="shop__price">$11.49</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="7.99" data-category="nailcare">
+                    <div class="shop__box">
+                        <img src="https://dependcosmetic.com/wp-content/uploads/2018/07/8948-top-gel-inneh%C3%A5ll-300x360.jpg" alt="Top Gel" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Top Gel</h3>
+                        <p class="shop__description">High-shine gel top coat for lasting results.</p>
+                        <span class="shop__price">$7.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                  <!--  Skin Care -->
+                  <article class="shop__card" data-price="24.99" data-category="skincare">
+                    <div class="shop__box">
+                        <img src="https://www.sephora.com/productimages/sku/s2495547-main-zoom.jpg?pb=clean-at-sephora&imwidth=500" alt="Hydrating Serum" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Hydrating Serum</h3>
+                        <p class="shop__description">Lightweight serum for intense hydration.</p>
+                        <span class="shop__price">$24.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="32.00" data-category="skincare">
+                    <div class="shop__box">
+                        <img src="https://www.sephora.com/productimages/sku/s2031391-main-zoom.jpg?imwidth=500" alt="Exfoliating Scrub" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Exfoliating Scrub</h3>
+                        <p class="shop__description">Gentle scrub to remove dead skin cells.</p>
+                        <span class="shop__price">$32.00</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="45.00" data-category="skincare">
+                    <div class="shop__box">
+                        <img src="https://www.sephora.com/productimages/sku/s2031508-main-zoom.jpg?imwidth=500" alt="Night Cream" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Night Cream</h3>
+                        <p class="shop__description">Rich cream for overnight hydration.</p>
+                        <span class="shop__price">$45.00</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="28.99" data-category="skincare">
+                    <div class="shop__box">
+                        <img src="https://www.sephora.com/productimages/sku/s2735132-main-zoom.jpg?imwidth=500" alt="Moisturizer" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Moisturizer</h3>
+                        <p class="shop__description">Hydrating cream for daily use.</p>
+                        <span class="shop__price">$28.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="30.00" data-category="skincare">
+                    <div class="shop__box">
+                        <img src="https://www.sephora.com/productimages/sku/s2210607-main-zoom.jpg?imwidth=500" alt="Anti-Aging Cream" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Anti-Aging Cream</h3>
+                        <p class="shop__description">Reduces the appearance of fine lines.</p>
+                        <span class="shop__price">$30.00</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="50.00" data-category="skincare">
+                    <div class="shop__box">
+                        <img src="https://www.sephora.com/productimages/sku/s2404846-main-zoom.jpg?pb=clean-planet-aware&imwidth=500" alt="Brightening Serum" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Brightening Serum</h3>
+                        <p class="shop__description">Enhances skin radiance and evens tone.</p>
+                        <span class="shop__price">$50.00</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="22.00" data-category="skincare">
+                    <div class="shop__box">
+                        <img src="https://www.sephora.com/productimages/sku/s2663763-main-zoom.jpg?imwidth=500" alt="Face Wash" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Face Wash</h3>
+                        <p class="shop__description">Gentle cleanser for all skin types.</p>
+                        <span class="shop__price">$22.00</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="38.00" data-category="skincare">
+                    <div class="shop__box">
+                        <img src="https://www.sephora.com/productimages/sku/s1863588-main-zoom.jpg?pb=clean-at-sephora&imwidth=500" alt="Revitalizing Gel" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Revitalizing Gel</h3>
+                        <p class="shop__description">Gel moisturizer for a fresh feel.</p>
+                        <span class="shop__price">$38.00</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="25.99" data-category="skincare">
+                    <div class="shop__box">
+                        <img src="https://www.sephora.com/productimages/sku/s1785856-main-zoom.jpg?pb=clean-at-sephora&imwidth=500" alt="Hydrating Mist" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Hydrating Mist</h3>
+                        <p class="shop__description">Refreshing mist for hydration on-the-go.</p>
+                        <span class="shop__price">$25.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="48.00" data-category="skincare">
+                    <div class="shop__box">
+                        <img src="https://www.sephora.com/productimages/sku/s2421360-main-zoom.jpg?imwidth=500" alt="Luxury Facial Oil" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Luxury Facial Oil</h3>
+                        <p class="shop__description">Nourishing oil for radiant skin.</p>
+                        <span class="shop__price">$48.00</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="19.99" data-category="skincare">
+                    <div class="shop__box">
+                        <img src="https://www.sephora.com/productimages/sku/s2640662-main-zoom.jpg?imwidth=500" alt="Soothing Cream" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Soothing Cream</h3>
+                        <p class="shop__description">Calming cream for sensitive skin.</p>
+                        <span class="shop__price">$19.99</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="35.00" data-category="skincare">
+                    <div class="shop__box">
+                        <img src="https://www.sephora.com/productimages/sku/s2785293-main-zoom.jpg?imwidth=500" alt="Clarifying Mask" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Clarifying Mask</h3>
+                        <p class="shop__description">Detoxifying mask for clearer skin.</p>
+                        <span class="shop__price">$35.00</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="shop__card" data-price="40.00" data-category="skincare">
+                    <div class="shop__box">
+                        <img src="https://www.sephora.com/productimages/sku/s2671857-main-zoom.jpg?pb=allure-2023-bestofbeauty-badge&imwidth=500" alt="Rejuvenating Serum" class="shop__img">
+                    </div>
+                    <div class="shop__details">
+                        <h3 class="shop__title">Rejuvenating Serum</h3>
+                        <p class="shop__description">Serum that improves skin texture and tone.</p>
+                        <span class="shop__price">$40.00</span>
+                        <a href="details.html" class="shop__button">
+                          <i class="bx bx-cart-alt new__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                
+              </div>
+          </div>
+      </section>
+      
     </main>
-
+      
     <!--=============== FOOTER ===============-->
     <footer class="footer section">
+  
+      <div class="footer__container container">
+        <div class="footer__links">
+          <h3 class="footer__title">Quick Links</h3>
+          <ul class="footer__list">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="shop.html" class="footer__link">Shop</a></li>
+            <li><a href="contact.html" class="footer__link">Contact</a></li>
+            <li><a href="faq.html" class="footer__link">FAQ</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer__customer-service">
+          <h3 class="footer__title">Customer Service</h3>
+          <ul class="footer__list">
+            <li><a href="return-policy.html" class="footer__link">Return Policy</a></li>
+            <li><a href="shipping-info.html" class="footer__link">Shipping Information</a></li>
+            <li><a href="privacy-policy.html" class="footer__link">Privacy Policy</a></li>
+            <li><a href="terms.html" class="footer__link">Terms of Service</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer__social-media">
+          <h3 class="footer__title">Follow Us</h3>
+          <div class="footer__social-icons">
+            <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="footer__social-link">
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="footer__social-link">
+              <i class="bx bxl-linkedin"></i>
+            </a>
+          </div>
+        </div>
         
+      </div>
+    
+      <div class="footer__bottom">
+        <p>&copy; 2024 aura+. All rights reserved.</p>
+      </div>
     </footer>
 
     <!--=============== SCROLL UP ===============-->
@@ -131,5 +650,43 @@
 
     <!--=============== JS ===============-->
     <script src="assets/js/main.js"></script>
+
+    <script>
+      function filterProducts() {
+          const category = document.getElementById('category').value;
+          const products = document.querySelectorAll('.shop__card');
+
+          products.forEach(product => {
+              if (category === 'all' || product.getAttribute('data-category') === category) {
+                  product.style.display = 'block';
+              } else {
+                  product.style.display = 'none';
+              }
+          });
+      }
+  </script>
+
+<script>
+  function sortProducts() {
+      const sortValue = document.getElementById('sort').value;
+      const productsContainer = document.querySelector('.shop__container');
+      const products = Array.from(productsContainer.querySelectorAll('.shop__card'));
+
+      products.sort((a, b) => {
+          const priceA = parseFloat(a.getAttribute('data-price'));
+          const priceB = parseFloat(b.getAttribute('data-price'));
+
+          if (sortValue === 'price-asc') {
+              return priceA - priceB;
+          } else if (sortValue === 'price-desc') {
+              return priceB - priceA;
+          } else {
+              return 0;
+          }
+      });
+
+      products.forEach(product => productsContainer.appendChild(product));
+  }
+</script>
 </body>
 </html>
