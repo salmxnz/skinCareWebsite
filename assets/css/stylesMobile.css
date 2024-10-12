@@ -71,11 +71,11 @@
   }
 
   .carousel-inner img {
-    max-height: 200px;
+    max-height: 40rem;
     object-fit: cover;
   }
   .carousel-inner{
-    height: 200px;
+    height: 100%;
   }
 
   img.brand-img{
