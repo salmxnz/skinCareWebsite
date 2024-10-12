@@ -192,53 +192,52 @@
     <div class="login" id="login">
         
     </div>
-
-        <title>Contact Us - Skincare</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us - GlowSkin</title>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/styles2.css">
     </head>
     <body>
-        <section class="contact-section">
-            <div class="container">
-                <h1>Contact Us</h1>
-                <p>We’d love to hear from you. Let us know how we can help you glow.</p>
-                
-                <div class="contact-info">
-                    <div class="info-box">
-                        <h3>Email</h3>
-                        <p><a href="mailto:info@skincare.com">info@skincare.com</a></p>
-                    </div>
-                    <div class="info-box">
-                        <h3>Phone</h3>
-                        <p><a href="tel:+123456789">+230 5123 4567</a></p>
-                    </div>
-                    <div class="info-box">
-                        <h3>Address</h3>
-                        <p>3, Shand Street, Beau Bassin<p>
-                    </div>
-                </div>
+        <!-- Pinterest-Style Contact Section -->
+        <div class="hero-background"></div>
     
-                <form class="contact-form" action="#" method="post">
-                    <div class="form-group">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Your Message</label>
-                        <input id="message" name="message" rows="5" placeholder="How can we help you?" required>
-                    <div class="form-group">    
-                    <button type="submit" class="submit-btn">Send Message</button>
-                    </div>
+        <section class="grid-container">
+            <!-- Contact Info Card -->
+            <div class="grid-item contact-card">
+                <h2>Contact Information</h2>
+                <p>Email: <a href="mailto:info@aura+.com">info@aura+.com</a></p>
+                <p>Phone: <a href="tel:+5123 4567">+5123 4567</a></p>
+                <p>Address: 7, Shand Street, Beau Bassin</p>
+            </div>
+    
+            <!-- Contact Form Card -->
+            <div class="grid-item contact-form-card">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
                 </form>
             </div>
         </section>
+    
+        <!-- Map Card (always at the bottom) -->
+        <div class="map-container">
+            <div class="map-card">
+                <h2>Find Us</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.095857066885!2d57.46917052276736!3d-20.22832294236499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9157841554316f%3A0x21eb0d1fe8499f15!2s7%20Shand%20St%2C%20Stafford%20QLD%204053%2C%20Australia!5e0!3m2!1sen!2smu!4v1728761943100!5m2!1sen!2smu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </iframe>
+            </div>
+        </div>
     </body>
-    </html>    
-
+    </html>
+    
     <!--=============== FOOTER ===============-->
     <footer class="footer section">
         
