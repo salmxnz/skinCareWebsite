@@ -600,7 +600,7 @@ input {
 .cart__button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background-color: var(--blue-color);
+  background-color: black;
   color: var(--white-color);
   text-align: center;
   border-radius: 0.5rem;
@@ -637,31 +637,31 @@ input {
 }
 
 .cart__empty {
-  text-align: center;
-  padding: 2rem;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  margin-top: 1rem;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-top: 1rem;
 }
 
 .cart__empty-message {
-  font-size: 1.2rem;
-  color: #555;
-  margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1rem;
 }
 
 .cart__browse-link {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .cart__browse-link:hover {
-  background-color: #0056b3;
+    background-color: #0a0a0a;
 }
 
 /* Cart Page Styles */
@@ -1061,7 +1061,7 @@ body {
 /* Checkout Page Styles */
 .checkout__page {
   max-width: 800px;
-  margin: 2rem auto;
+  margin: 7rem auto;
   background-color: #fff;
   padding: 2rem;
   border-radius: 0.5rem;
