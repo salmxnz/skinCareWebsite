@@ -47,36 +47,36 @@
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="index.html" class="nav_logo">
+        <a href="index.php" class="nav_logo">
           <i class="bx bxs-shopping-bag nav_logo-icon"></i> aura+
         </a>
 
         <div class="nav__menu">
           <ul class="nav_list">
             <li class="nav_item">
-              <a href="index.html" class="nav__link ">Home</a>
+              <a href="index.php" class="nav__link ">Home</a>
             </li>
 
             <li class="nav-item dropdown nav_item">
        
-              <a class="nav__link dropdown-toggle" href="shop.html" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+              <a class="nav__link dropdown-toggle" href="shop.php" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
                 Products
               </a>
               <div class="nav__link dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="nav__link dropdown-item" href="skincare.html">Skin Care</a>
-                <a class="nav__link dropdown-item" href="haircare.html">Hair Care</a>
-                <a class="nav__link dropdown-item" href="nailcare.html">Nail Care</a>
-                <a class="nav__link dropdown-item" href="mencare.html">Men's Care</a>
+                <a class="nav__link dropdown-item" href="skincare.php">Skin Care</a>
+                <a class="nav__link dropdown-item" href="haircare.php">Hair Care</a>
+                <a class="nav__link dropdown-item" href="nailcare.php">Nail Care</a>
+                <a class="nav__link dropdown-item" href="mencare.php">Men's Care</a>
               </div>
             </li>
             
 
             <li class="nav_item">
-              <a href="contact.html" class="nav__link">Contact</a>
+              <a href="contact.php" class="nav__link">Contact</a>
             </li>
 
             <li class="nav_item">
-              <a href="faq.html" class="nav__link">FAQ</a>
+              <a href="faq.php" class="nav__link">FAQ</a>
             </li>
 
           </ul>
@@ -84,7 +84,7 @@
 
       <div class="nav__btns">
           <div class="login_toggle" id="login-toggle">
-            <a href="login.html" class="nav__link">
+            <a href="login.php" class="nav__link">
               <i
               class="bx bx-user"
               onmouseover="this.className='bx bxs-user'"
@@ -131,7 +131,7 @@
                 </div>
                 <button type="submit" class="signup__button">Sign Up</button>
             </form>
-            <p>Already have an account? <a href="login.html">Login</a></p>
+            <p>Already have an account? <a href="login.php">Login</a></p>
         </section>
     </main>
 
@@ -141,20 +141,20 @@
           <div class="footer__links">
             <h3 class="footer__title">Quick Links</h3>
             <ul class="footer__list">
-              <li><a href="index.html" class="footer__link">Home</a></li>
-              <li><a href="shop.html" class="footer__link">Shop</a></li>
-              <li><a href="contact.html" class="footer__link">Contact</a></li>
-              <li><a href="faq.html" class="footer__link">FAQ</a></li>
+              <li><a href="index.php" class="footer__link">Home</a></li>
+              <li><a href="shop.php" class="footer__link">Shop</a></li>
+              <li><a href="contact.php" class="footer__link">Contact</a></li>
+              <li><a href="faq.php" class="footer__link">FAQ</a></li>
             </ul>
           </div>
       
           <div class="footer__customer-service">
             <h3 class="footer__title">Customer Service</h3>
             <ul class="footer__list">
-              <li><a href="return-policy.html" class="footer__link">Return Policy</a></li>
-              <li><a href="shipping-info.html" class="footer__link">Shipping Information</a></li>
-              <li><a href="privacy-policy.html" class="footer__link">Privacy Policy</a></li>
-              <li><a href="terms.html" class="footer__link">Terms of Service</a></li>
+              <li><a href="return-policy.php" class="footer__link">Return Policy</a></li>
+              <li><a href="shipping-info.php" class="footer__link">Shipping Information</a></li>
+              <li><a href="privacy-policy.php" class="footer__link">Privacy Policy</a></li>
+              <li><a href="terms.php" class="footer__link">Terms of Service</a></li>
             </ul>
           </div>
       

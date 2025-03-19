@@ -22,33 +22,33 @@
     <header class="header" id="header">
         <nav class="nav container">
 
-        <a href="index.html" class="nav_logo">
+        <a href="index.php" class="nav_logo">
           <i class="bx bxs-shopping-bag nav_logo-icon"></i> SkinCare
         </a>
 
         <div class="nav__menu">
           <ul class="nav_list">
             <li class="nav_item">
-              <a href="index.html" class="nav__link ">Home</a>
+              <a href="index.php" class="nav__link ">Home</a>
             </li>
             <li class="nav_item">
-              <a href="shop.html" class="nav__link ">Shop</a>
-            </li>
-
-            <li class="nav_item">
-              <a href="cart.html" class="nav__link">Cart</a>
+              <a href="shop.php" class="nav__link ">Shop</a>
             </li>
 
             <li class="nav_item">
-              <a href="blog.html" class="nav__link active-link">Blog</a>
+              <a href="cart.php" class="nav__link">Cart</a>
             </li>
 
             <li class="nav_item">
-              <a href="faq.html" class="nav__link">FAQ</a>
+              <a href="blog.php" class="nav__link active-link">Blog</a>
             </li>
 
             <li class="nav_item">
-              <a href="contact.html" class="nav__link">Contact</a>
+              <a href="faq.php" class="nav__link">FAQ</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="contact.php" class="nav__link">Contact</a>
             </li>
           </ul>
         </div>

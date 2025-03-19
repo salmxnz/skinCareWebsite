@@ -41,36 +41,36 @@
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="index.html" class="nav_logo">
+        <a href="index.php" class="nav_logo">
           <i class="bx bxs-shopping-bag nav_logo-icon"></i> aura+
         </a>
 
         <div class="nav__menu">
           <ul class="nav_list">
             <li class="nav_item">
-              <a href="index.html" class="nav__link">Home</a>
+              <a href="index.php" class="nav__link">Home</a>
             </li>
 
             <li class="nav-item dropdown nav_item">
        
-              <a class="nav__link dropdown-toggle" href="shop.html" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+              <a class="nav__link dropdown-toggle" href="shop.php" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
                 Products
               </a>
               <div class="nav__link dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="nav__link dropdown-item" href="skincare.html">Skin Care</a>
-                <a class="nav__link dropdown-item" href="haircare.html">Hair Care</a>
-                <a class="nav__link dropdown-item" href="nailcare.html">Nail Care</a>
-                <a class="nav__link dropdown-item" href="mencare.html">Men's Care</a>
+                <a class="nav__link dropdown-item" href="skincare.php">Skin Care</a>
+                <a class="nav__link dropdown-item" href="haircare.php">Hair Care</a>
+                <a class="nav__link dropdown-item" href="nailcare.php">Nail Care</a>
+                <a class="nav__link dropdown-item" href="mencare.php">Men's Care</a>
               </div>
             </li>
             
 
             <li class="nav_item">
-              <a href="contact.html" class="nav__link active-link">Contact</a>
+              <a href="contact.php" class="nav__link active-link">Contact</a>
             </li>
 
             <li class="nav_item">
-              <a href="faq.html" class="nav__link">FAQ</a>
+              <a href="faq.php" class="nav__link">FAQ</a>
             </li>
 
           </ul>

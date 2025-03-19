@@ -41,36 +41,36 @@
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="index.html" class="nav_logo">
+        <a href="index.php" class="nav_logo">
           <i class="bx bxs-shopping-bag nav_logo-icon"></i>aura+
         </a>
 
         <div class="nav__menu">
           <ul class="nav_list">
             <li class="nav_item">
-              <a href="index.html" class="nav__link ">Home</a>
+              <a href="index.php" class="nav__link ">Home</a>
             </li>
 
             <li class="nav-item dropdown nav_item">
        
-              <a class="nav__link dropdown-toggle active-link" href="shop.html" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+              <a class="nav__link dropdown-toggle active-link" href="shop.php" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
                 Products
               </a>
               <div class="nav__link dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="nav__link dropdown-item" href="skincare.html">Skin Care</a>
-                <a class="nav__link dropdown-item" href="haircare.html">Hair Care</a>
-                <a class="nav__link dropdown-item" href="nailcare.html">Nail Care</a>
-                <a class="nav__link dropdown-item" href="mencare.html">Men's Care</a>
+                <a class="nav__link dropdown-item" href="skincare.php">Skin Care</a>
+                <a class="nav__link dropdown-item" href="haircare.php">Hair Care</a>
+                <a class="nav__link dropdown-item" href="nailcare.php">Nail Care</a>
+                <a class="nav__link dropdown-item" href="mencare.php">Men's Care</a>
               </div>
             </li>
             
 
             <li class="nav_item">
-              <a href="contact.html" class="nav__link">Contact</a>
+              <a href="contact.php" class="nav__link">Contact</a>
             </li>
 
             <li class="nav_item">
-              <a href="faq.html" class="nav__link">FAQ</a>
+              <a href="faq.php" class="nav__link">FAQ</a>
             </li>
 
           </ul>
@@ -155,7 +155,7 @@
                         <h3 class="shop__title">Tresemme Keratin Smooth Shampoo</h3>
                         <p class="shop__description">Professional formula for nourished, smooth hair.</p>
                         <span class="shop__price">$7.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -170,7 +170,7 @@
                         <h3 class="shop__title">Tresemme Moisture Rich Conditioner</h3>
                         <p class="shop__description">Provides intense moisture for dry hair.</p>
                         <span class="shop__price">$8.49</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -185,7 +185,7 @@
                         <h3 class="shop__title">Tresemme Volume & Lift Mousse</h3>
                         <p class="shop__description">Adds volume and lift for fuller-looking hair.</p>
                         <span class="shop__price">$9.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -199,7 +199,7 @@
                         <h3 class="shop__title">Tresemme Extra Hold Hair Spray</h3>
                         <p class="shop__description">Provides all-day hold with a lightweight feel.</p>
                         <span class="shop__price">$10.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -214,7 +214,7 @@
                         <h3 class="shop__title">Charcoal Face Wash</h3>
                         <p class="shop__description">Deep cleansing face wash for oily skin.</p>
                         <span class="shop__price">$14.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -228,7 +228,7 @@
                         <h3 class="shop__title">Blanc Fragrance Collection</h3>
                         <p class="shop__description">Sophisticated fragrances for everyday freshness.</p>
                         <span class="shop__price">$19.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -242,7 +242,7 @@
                         <h3 class="shop__title">Bathe Me Up Combo</h3>
                         <p class="shop__description">Complete bathing essentials for a refreshing shower.</p>
                         <span class="shop__price">$24.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -256,7 +256,7 @@
                         <h3 class="shop__title">Beard Oil</h3>
                         <p class="shop__description">Nourishing beard oil for a fuller, healthier look.</p>
                         <span class="shop__price">$9.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -270,7 +270,7 @@
                         <h3 class="shop__title">Hair Styling Gel</h3>
                         <p class="shop__description">Hold and style your hair effortlessly.</p>
                         <span class="shop__price">$12.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -284,7 +284,7 @@
                         <h3 class="shop__title">Body Care Duo</h3>
                         <p class="shop__description">Two essential body care products for smooth skin.</p>
                         <span class="shop__price">$15.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -298,7 +298,7 @@
                         <h3 class="shop__title">Fresh Feeling Set</h3>
                         <p class="shop__description">Stay fresh all day with this men's grooming set.</p>
                         <span class="shop__price">$17.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -313,7 +313,7 @@
                         <h3 class="shop__title">Green Nail Polish</h3>
                         <p class="shop__description">Vegan nail polish with a long-lasting formula.</p>
                         <span class="shop__price">$12.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -327,7 +327,7 @@
                         <h3 class="shop__title">Cuticle Cream</h3>
                         <p class="shop__description">Nourishing cream for healthy cuticles.</p>
                         <span class="shop__price">$8.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -341,7 +341,7 @@
                         <h3 class="shop__title">Kickstart Nail Care</h3>
                         <p class="shop__description">Revitalizing care for brittle nails.</p>
                         <span class="shop__price">$10.49</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -355,7 +355,7 @@
                         <h3 class="shop__title">Ginseng Nail Serum</h3>
                         <p class="shop__description">Strengthening serum for healthy nails.</p>
                         <span class="shop__price">$9.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -369,7 +369,7 @@
                         <h3 class="shop__title">3-Step Action Kit</h3>
                         <p class="shop__description">Complete kit for nail care and maintenance.</p>
                         <span class="shop__price">$14.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -383,7 +383,7 @@
                         <h3 class="shop__title">Stop Tip Split</h3>
                         <p class="shop__description">Prevents nail splitting and breaking.</p>
                         <span class="shop__price">$11.49</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -397,7 +397,7 @@
                         <h3 class="shop__title">Top Gel</h3>
                         <p class="shop__description">High-shine gel top coat for lasting results.</p>
                         <span class="shop__price">$7.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -412,7 +412,7 @@
                         <h3 class="shop__title">Hydrating Serum</h3>
                         <p class="shop__description">Lightweight serum for intense hydration.</p>
                         <span class="shop__price">$24.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -426,7 +426,7 @@
                         <h3 class="shop__title">Exfoliating Scrub</h3>
                         <p class="shop__description">Gentle scrub to remove dead skin cells.</p>
                         <span class="shop__price">$32.00</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -440,7 +440,7 @@
                         <h3 class="shop__title">Night Cream</h3>
                         <p class="shop__description">Rich cream for overnight hydration.</p>
                         <span class="shop__price">$45.00</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -454,7 +454,7 @@
                         <h3 class="shop__title">Moisturizer</h3>
                         <p class="shop__description">Hydrating cream for daily use.</p>
                         <span class="shop__price">$28.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -468,7 +468,7 @@
                         <h3 class="shop__title">Anti-Aging Cream</h3>
                         <p class="shop__description">Reduces the appearance of fine lines.</p>
                         <span class="shop__price">$30.00</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -482,7 +482,7 @@
                         <h3 class="shop__title">Brightening Serum</h3>
                         <p class="shop__description">Enhances skin radiance and evens tone.</p>
                         <span class="shop__price">$50.00</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -496,7 +496,7 @@
                         <h3 class="shop__title">Face Wash</h3>
                         <p class="shop__description">Gentle cleanser for all skin types.</p>
                         <span class="shop__price">$22.00</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -510,7 +510,7 @@
                         <h3 class="shop__title">Revitalizing Gel</h3>
                         <p class="shop__description">Gel moisturizer for a fresh feel.</p>
                         <span class="shop__price">$38.00</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -524,7 +524,7 @@
                         <h3 class="shop__title">Hydrating Mist</h3>
                         <p class="shop__description">Refreshing mist for hydration on-the-go.</p>
                         <span class="shop__price">$25.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -538,7 +538,7 @@
                         <h3 class="shop__title">Luxury Facial Oil</h3>
                         <p class="shop__description">Nourishing oil for radiant skin.</p>
                         <span class="shop__price">$48.00</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -552,7 +552,7 @@
                         <h3 class="shop__title">Soothing Cream</h3>
                         <p class="shop__description">Calming cream for sensitive skin.</p>
                         <span class="shop__price">$19.99</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -566,7 +566,7 @@
                         <h3 class="shop__title">Clarifying Mask</h3>
                         <p class="shop__description">Detoxifying mask for clearer skin.</p>
                         <span class="shop__price">$35.00</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -580,7 +580,7 @@
                         <h3 class="shop__title">Rejuvenating Serum</h3>
                         <p class="shop__description">Serum that improves skin texture and tone.</p>
                         <span class="shop__price">$40.00</span>
-                        <a href="details.html" class="shop__button">
+                        <a href="details.php" class="shop__button">
                           <i class="bx bx-cart-alt new__icon"></i>
                         </a>
                     </div>
@@ -599,20 +599,20 @@
         <div class="footer__links">
           <h3 class="footer__title">Quick Links</h3>
           <ul class="footer__list">
-            <li><a href="index.html" class="footer__link">Home</a></li>
-            <li><a href="shop.html" class="footer__link">Shop</a></li>
-            <li><a href="contact.html" class="footer__link">Contact</a></li>
-            <li><a href="faq.html" class="footer__link">FAQ</a></li>
+            <li><a href="index.php" class="footer__link">Home</a></li>
+            <li><a href="shop.php" class="footer__link">Shop</a></li>
+            <li><a href="contact.php" class="footer__link">Contact</a></li>
+            <li><a href="faq.php" class="footer__link">FAQ</a></li>
           </ul>
         </div>
     
         <div class="footer__customer-service">
           <h3 class="footer__title">Customer Service</h3>
           <ul class="footer__list">
-            <li><a href="return-policy.html" class="footer__link">Return Policy</a></li>
-            <li><a href="shipping-info.html" class="footer__link">Shipping Information</a></li>
-            <li><a href="privacy-policy.html" class="footer__link">Privacy Policy</a></li>
-            <li><a href="terms.html" class="footer__link">Terms of Service</a></li>
+            <li><a href="return-policy.php" class="footer__link">Return Policy</a></li>
+            <li><a href="shipping-info.php" class="footer__link">Shipping Information</a></li>
+            <li><a href="privacy-policy.php" class="footer__link">Privacy Policy</a></li>
+            <li><a href="terms.php" class="footer__link">Terms of Service</a></li>
           </ul>
         </div>
     

@@ -45,36 +45,36 @@
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="index.html" class="nav_logo">
+        <a href="index.php" class="nav_logo">
           <i class="bx bxs-shopping-bag nav_logo-icon"></i> aura+
         </a>
 
         <div class="nav__menu">
           <ul class="nav_list">
             <li class="nav_item">
-              <a href="index.html" class="nav__link active-link">Home</a>
+              <a href="index.php" class="nav__link active-link">Home</a>
             </li>
 
             <li class="nav-item dropdown nav_item">
        
-              <a class="nav__link dropdown-toggle" href="shop.html" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+              <a class="nav__link dropdown-toggle" href="shop.php" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
                 Products
               </a>
               <div class="nav__link dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="nav__link dropdown-item" href="skincare.html">Skin Care</a>
-                <a class="nav__link dropdown-item" href="haircare.html">Hair Care</a>
-                <a class="nav__link dropdown-item" href="nailcare.html">Nail Care</a>
-                <a class="nav__link dropdown-item" href="mencare.html">Men's Care</a>
+                <a class="nav__link dropdown-item" href="skincare.php">Skin Care</a>
+                <a class="nav__link dropdown-item" href="haircare.php">Hair Care</a>
+                <a class="nav__link dropdown-item" href="nailcare.php">Nail Care</a>
+                <a class="nav__link dropdown-item" href="mencare.php">Men's Care</a>
               </div>
             </li>
             
 
             <li class="nav_item">
-              <a href="contact.html" class="nav__link">Contact</a>
+              <a href="contact.php" class="nav__link">Contact</a>
             </li>
 
             <li class="nav_item">
-              <a href="faq.html" class="nav__link">FAQ</a>
+              <a href="faq.php" class="nav__link">FAQ</a>
             </li>
 
           </ul>
@@ -82,7 +82,7 @@
 
       <div class="nav__btns">
           <div class="login_toggle" id="login-toggle">
-            <a href="login.html" class="nav__link">
+            <a href="login.php" class="nav__link">
               <i
               class="bx bx-user"
               onmouseover="this.className='bx bxs-user'"
@@ -127,7 +127,7 @@
       <!-- Empty cart message -->
       <div class="cart__empty">
           <p class="cart__empty-message">Your cart is currently empty.</p>
-          <a href="shop.html" class="cart__browse-link">Browse Products</a>
+          <a href="shop.php" class="cart__browse-link">Browse Products</a>
       </div>
       
       <!-- Existing cart content (hidden when empty) -->
@@ -141,7 +141,7 @@
       </div>
   
 
-      <a href="cart.html" class="cart__button">Go to Cart</a>
+      <a href="cart.php" class="cart__button">Go to Cart</a>
     </div>
   </div>
 
@@ -177,7 +177,7 @@
         <h2 class="section__title">New Arrivals</h2>
       
         <!-- Swiper Container -->
-        <div class="swiper new-swiper container">
+        <div class="swiper new-arrivals-swiper container">
           <div class="swiper-wrapper">
             <!-- Product 1 -->
             <div class="swiper-slide">
@@ -189,7 +189,7 @@
                 <div class="new__prices">
                   <span class="new__price">$7.99</span>
                 </div>
-                <a href="details.html" class="new__button">
+                <a href="details.php" class="new__button">
                   <i class="bx bx-cart-alt new__icon"></i>
                 </a>
               </div>
@@ -205,7 +205,7 @@
                 <div class="new__prices">
                   <span class="new__price">$24.99</span>
                 </div>
-                <a href="details.html" class="new__button">
+                <a href="details.php" class="new__button">
                   <i class="bx bx-cart-alt new__icon"></i>
                 </a>
               </div>
@@ -221,7 +221,7 @@
                 <div class="new__prices">
                   <span class="new__price">$8.99</span>
                 </div>
-                <a href="details.html" class="new__button">
+                <a href="details.php" class="new__button">
                   <i class="bx bx-cart-alt new__icon"></i>
                 </a>
               </div>
@@ -237,7 +237,7 @@
                 <div class="new__prices">
                   <span class="new__price">$50.00</span>
                 </div>
-                <a href="details.html" class="new__button">
+                <a href="details.php" class="new__button">
                   <i class="bx bx-cart-alt new__icon"></i>
                 </a>
               </div>
@@ -253,7 +253,7 @@
                 <div class="new__prices">
                   <span class="new__price">$40.00</span>
                 </div>
-                <a href="details.html" class="new__button">
+                <a href="details.php" class="new__button">
                   <i class="bx bx-cart-alt new__icon"></i>
                 </a>
               </div>
@@ -266,27 +266,28 @@
         </div>
       </section>
       
-      <script src="assets/js/swiper-bundle.min.js"></script>
-<script>
-  // Swiper for New Arrivals Section
-  var swiper = new Swiper(".new-swiper", {
-    slidesPerView: 1,       // Adjust number of visible slides
-    spaceBetween: 10,       // Space between slides
-    loop: true,             // Enable continuous loop
-    navigation: {
-      nextEl: ".swiper-button-next",   // Right arrow
-      prevEl: ".swiper-button-prev",   // Left arrow
-    },
-    breakpoints: {
-      640: {
-        slidesPerView: 2,    // Two slides on medium screens
-      },
-      1024: {
-        slidesPerView: 3,    // Three slides on large screens
-      },
-    },
-  });
-</script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // Swiper for New Arrivals Section
+          var newArrivalsSwiper = new Swiper(".new-arrivals-swiper", {
+            slidesPerView: 1,       // Adjust number of visible slides
+            spaceBetween: 10,       // Space between slides
+            loop: true,             // Enable continuous loop
+            navigation: {
+              nextEl: ".swiper-button-next",   // Right arrow
+              prevEl: ".swiper-button-prev",   // Left arrow
+            },
+            breakpoints: {
+              640: {
+                slidesPerView: 2,    // Two slides on medium screens
+              },
+              1024: {
+                slidesPerView: 3,    // Three slides on large screens
+              },
+            },
+          });
+        });
+      </script>
 
 <!--=============== BRANDS ===============-->
 <section class="brands section">
@@ -306,7 +307,7 @@
     <div class="carousel-inner">
       <!-- Brand 1 -->
       <div class="item active">
-        <img src="https://www.laroche-posay.us/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lrp-us-Library/default/dw7f8b2858/images/homepage/Hero/DRM-la-roche-posay-toleriane-face-moisturizer-hp-desktop-v2.jpg?sw=2000&sh=694&sm=cut&q=70"  class="brand-img" />
+        <img src="https://www.laroche-posay.us/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lrp-us-Library/default/dw7f8b2858/images/homepage/Hero/DRM-la-roche-posay-toleriane-face-moisturizer-hp-desktop-v2.jpg?sw=2000&h=694&sm=cut&q=70&bg=fff"  class="brand-img" />
         <div class="carousel-caption">
           <h3>La Roche-Posay</h3>
           <p>We partner with dermatologists to stay at the forefront of skincare science, pioneering cutting-edge topics like skin’s microbiome. With over 750+ studies and 25 years of extensive research, we are committed to developing safe and effective products that are dermatologist developed and tested.</p>
@@ -359,7 +360,7 @@
   
   
 <!-- Swiper Container -->
-       <div class="swiper new-swiper container">
+       <div class="swiper best-sellers-swiper container">
         <div class="swiper-wrapper">
           <!-- Product 1 -->
           <div class="swiper-slide">
@@ -372,7 +373,7 @@
                 <span class="new__price">$19.99</span>
                 <span class="new__discount">$30.00</span>
               </div>
-              <a href="details.html" class="new__button">
+              <a href="details.php" class="new__button">
                 <i class="bx bx-cart-alt new__icon"></i>
               </a>
             </div>
@@ -389,7 +390,7 @@
                 <span class="new__price">$25.99</span>
                 <span class="new__discount">$35.99</span>
               </div>
-              <a href="details.html" class="new__button">
+              <a href="details.php" class="new__button">
                 <i class="bx bx-cart-alt new__icon"></i>
               </a>
             </div>
@@ -406,7 +407,7 @@
                 <span class="new__price">$7.99</span>
                 <span class="new__discount">$15.99</span>
               </div>
-              <a href="details.html" class="new__button">
+              <a href="details.php" class="new__button">
                 <i class="bx bx-cart-alt new__icon"></i>
               </a>
             </div>
@@ -423,7 +424,7 @@
                 <span class="new__price">$6.99</span>
                 <span class="new__discount">$14.99</span>
               </div>
-              <a href="details.html" class="new__button">
+              <a href="details.php" class="new__button">
                 <i class="bx bx-cart-alt new__icon"></i>
               </a>
             </div>
@@ -440,7 +441,7 @@
                 <span class="new__price">$22.00</span>
                 <span class="new__discount">$48.00</span>
               </div>
-              <a href="details.html" class="new__button">
+              <a href="details.php" class="new__button">
                 <i class="bx bx-cart-alt new__icon"></i>
               </a>
             </div>
@@ -453,25 +454,45 @@
       </div>
     </section>
     
-    <script src="assets/js/swiper-bundle.min.js"></script>
     <script>
-      // Swiper for New Arrivals Section
-      var swiper = new Swiper(".new-swiper", {
-        slidesPerView: 1,       // Adjust number of visible slides
-        spaceBetween: 10,       // Space between slides
-        loop: true,             // Enable continuous loop
-        navigation: {
-          nextEl: ".swiper-button-next",   // Right arrow
-          prevEl: ".swiper-button-prev",   // Left arrow
-        },
-        breakpoints: {
-          640: {
-            slidesPerView: 2,    // Two slides on medium screens
+      document.addEventListener('DOMContentLoaded', function() {
+        // Swiper for New Arrivals Section
+        var newArrivalsSwiper = new Swiper(".new-arrivals-swiper", {
+          slidesPerView: 1,       // Adjust number of visible slides
+          spaceBetween: 10,       // Space between slides
+          loop: true,             // Enable continuous loop
+          navigation: {
+            nextEl: ".swiper-button-next",   // Right arrow
+            prevEl: ".swiper-button-prev",   // Left arrow
           },
-          1024: {
-            slidesPerView: 3,    // Three slides on large screens
+          breakpoints: {
+            640: {
+              slidesPerView: 2,    // Two slides on medium screens
+            },
+            1024: {
+              slidesPerView: 3,    // Three slides on large screens
+            },
           },
-        },
+        });
+        
+        // Swiper for Best Sellers Section (if needed)
+        var bestSellersSwiper = new Swiper(".best-sellers-swiper", {
+          slidesPerView: 1,       // Adjust number of visible slides
+          spaceBetween: 10,       // Space between slides
+          loop: true,             // Enable continuous loop
+          navigation: {
+            nextEl: ".swiper-button-next",   // Right arrow
+            prevEl: ".swiper-button-prev",   // Left arrow
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 2,    // Two slides on medium screens
+            },
+            1024: {
+              slidesPerView: 3,    // Three slides on large screens
+            },
+          },
+        });
       });
     </script>
     
@@ -544,20 +565,20 @@
     <div class="footer__links">
       <h3 class="footer__title">Quick Links</h3>
       <ul class="footer__list">
-        <li><a href="index.html" class="footer__link">Home</a></li>
-        <li><a href="shop.html" class="footer__link">Shop</a></li>
-        <li><a href="contact.html" class="footer__link">Contact</a></li>
-        <li><a href="faq.html" class="footer__link">FAQ</a></li>
+        <li><a href="index.php" class="footer__link">Home</a></li>
+        <li><a href="shop.php" class="footer__link">Shop</a></li>
+        <li><a href="contact.php" class="footer__link">Contact</a></li>
+        <li><a href="faq.php" class="footer__link">FAQ</a></li>
       </ul>
     </div>
 
     <div class="footer__customer-service">
       <h3 class="footer__title">Customer Service</h3>
       <ul class="footer__list">
-        <li><a href="return-policy.html" class="footer__link">Return Policy</a></li>
-        <li><a href="shipping-info.html" class="footer__link">Shipping Information</a></li>
-        <li><a href="privacy-policy.html" class="footer__link">Privacy Policy</a></li>
-        <li><a href="terms.html" class="footer__link">Terms of Service</a></li>
+        <li><a href="return-policy.php" class="footer__link">Return Policy</a></li>
+        <li><a href="shipping-info.php" class="footer__link">Shipping Information</a></li>
+        <li><a href="privacy-policy.php" class="footer__link">Privacy Policy</a></li>
+        <li><a href="terms.php" class="footer__link">Terms of Service</a></li>
       </ul>
     </div>
 
@@ -593,7 +614,6 @@
     <!--=============== STYLE SWITCHER ===============-->
 
     <!--=============== SWIPER JS ===============-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== JS ===============-->
     <script src="assets/js/main.js"></script>
