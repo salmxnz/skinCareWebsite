@@ -165,7 +165,7 @@ $transformedHtml = $xslt->transformToXML($xml);
               <!-- Products -->
       
       <!-- XML Transformed Products Section -->
-      <section class="shop section container">
+      <section class="container">
         <!-- <h2 class="section__title">XML Products Demo</h2> -->
         <!-- <p class="section__description">This section demonstrates products loaded from XML and transformed with XSLT</p> -->
         

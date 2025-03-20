@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<skin:products xmlns:skin="http://www.skincare.com/products" 
-              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-              xsi:schemaLocation="http://www.skincare.com/products products.xsd">
+<skin:products xmlns:skin="http://www.skincare.com/products"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.skincare.com/products products.xsd">
     <skin:product id="1">
         <skin:name>Tresemme Keratin Smooth Shampoo</skin:name>
         <skin:category>Hair Care</skin:category>
@@ -207,6 +207,11 @@
         <skin:category>Skin Care</skin:category>
         <skin:price>50.00</skin:price>
         <skin:description>Enhances skin radiance and evens tone.</skin:description>
+        <skin:options>
+            <skin:option>30 ml</skin:option>
+            <skin:option>60 ml</skin:option>
+            <skin:option>100 ml</skin:option>
+        </skin:options>
         <skin:image>
             https://www.sephora.com/productimages/sku/s2404846-main-zoom.jpg?pb=clean-planet-aware&amp;imwidth=500</skin:image>
         <skin:isNew>false</skin:isNew>
@@ -349,6 +354,37 @@
         <skin:price>22.00</skin:price>
         <skin:discountPrice>48.00</skin:discountPrice>
         <skin:image>https://www.sephora.com/productimages/sku/s2421360-main-zoom.jpg?imwidth=500</skin:image>
+        <skin:isBest>true</skin:isBest>
+    </skin:product>
+    <skin:product id="42">
+        <skin:name>Niacinamide 10% + Zinc 1%</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>22.00</skin:price>
+        <skin:discountPrice>9.99</skin:discountPrice>
+        <skin:description>
+            Reduces blemishes and improves skin texture.
+        </skin:description>
+        <skin:descriptionfullall>
+            <skin:description_item>
+                Our Niacinamide 10% + Zinc 1% formula is a water-based serum that boosts skin brightness, improves skin smoothness, and reinforces the skin barrier over time. It contains a high 10% concentration of Niacinamide (vitamin B3) and Zinc PCA.
+            </skin:description_item>
+            <skin:description_item>
+                Note: Niacinamide and Zinc PCA is not a treatment for acne. For persistent acne-related conditions, we recommend speaking to your healthcare provider regarding treatment options. This formulation can be used alongside acne treatments if desired for added visible skin benefits.
+            </skin:description_item>
+            <skin:description_item>
+                Clinical Results
+Hydrating lightweight serum that improves the look of skin radiance and luminosity.
+Hydrates skin by reinforcing the skin barrier in as little as 7 days.
+Achieve smoother skin after 8 weeks.
+*In a clinical study of 35 subjects applying product 2x/day for 8 weeks.
+            </skin:description_item>
+        </skin:descriptionfullall>
+        <skin:image>https://www.sephora.com/productimages/sku/s2421360-main-zoom.jpg?imwidth=500</skin:image>
+        <skin:detail_images>
+            <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/de…serum-benefits-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+            <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/de…sh-ingredients-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+            <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwcf135ad6/Images/products/The%20Ordinary/Before-After/ord-niacinamide-zinc-blemish-serum-before-after-pores.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+        </skin:detail_images>
         <skin:isBest>true</skin:isBest>
     </skin:product>
 </skin:products>

@@ -15,7 +15,28 @@
               <xs:element name="price" type="xs:decimal"/>
               <xs:element name="discountPrice" type="xs:decimal" minOccurs="0"/>
               <xs:element name="description" type="xs:string" minOccurs="0"/>
+              <xs:element name="descriptionfullall" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="description_item" type="xs:string" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+               </xs:element>
+              <xs:element name="options" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="option" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
               <xs:element name="image" type="xs:string"/>
+              <xs:element name="detail_images" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="detail_image" type="xs:string" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+              </xs:element>
               <xs:choice>
                 <xs:element name="isNew" type="xs:boolean"/>
                 <xs:element name="isBest" type="xs:boolean"/>
