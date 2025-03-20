@@ -4,7 +4,7 @@
 $xml = new DOMDocument();
 $xml->load('data/products.xml');
 
-// Validate against XSD (optional)
+// Validate against XSD
 $isValid = $xml->schemaValidate('data/products.xsd');
 if (!$isValid) {
     error_log("XML validation failed");
