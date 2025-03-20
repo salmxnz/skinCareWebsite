@@ -1,0 +1,7 @@
+<reviews>
+    <review>
+        <name>John Doe</name>
+        <rating>5</rating>
+        <comment>Great product!</comment>
+    </review>
+</reviews>

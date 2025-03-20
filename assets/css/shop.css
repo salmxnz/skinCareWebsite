@@ -135,6 +135,21 @@
     font-size: 1.7rem;
     color: var(--white-color);
   }
+
+  .shop__icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    filter: brightness(0) invert(1); /* Makes the icon white */
+    display: block;
+    margin: 0 auto;
+  }
+
+  .shop__icon img {
+    width: 10%;
+    height: 10%;
+    object-fit: contain;
+  }
   
   .shop__tag {
     position: absolute;

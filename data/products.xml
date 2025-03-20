@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin:products xmlns:skin="http://www.skincare.com/products" 
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.skincare.com/products products.xsd">
+    <skin:product id="1">
+        <skin:name>Tresemme Keratin Smooth Shampoo</skin:name>
+        <skin:category>Hair Care</skin:category>
+        <skin:price>7.99</skin:price>
+        <skin:description>Professional formula for nourished, smooth hair.</skin:description>
+        <skin:image>
+            https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/ca48881ec8742e134d7a755b59ee4d8961801a94-600x600.jpg?w=768&amp;h=660&amp;fit=fill&amp;auto=format&amp;q=80&amp;bg=fff</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="2">
+        <skin:name>Tresemme Moisture Rich Conditioner</skin:name>
+        <skin:category>Hair Care</skin:category>
+        <skin:price>8.49</skin:price>
+        <skin:description>Provides intense moisture for dry hair.</skin:description>
+        <skin:image>
+            https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/76510f2eb5a5f48062843f02789cf019b17af94f-600x600.jpg?w=768&amp;h=660&amp;fit=fill&amp;auto=format&amp;q=80&amp;bg=fff</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="3">
+        <skin:name>Tresemme Volume : &amp; Lift Mousse</skin:name>
+        <skin:category>Hair Care</skin:category>
+        <skin:price>9.99</skin:price>
+        <skin:description>Adds volume and lift for fuller-looking hair.</skin:description>
+        <skin:image>
+            https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/504ddf32a2aee5cf487469255b8ae4c7ffb50dbb-2880x2880.png?w=768&amp;h=660&amp;fit=fill&amp;auto=format&amp;q=80&amp;bg=fff</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="4">
+        <skin:name>Tresemme Extra Hold Hair Spray</skin:name>
+        <skin:category>Hair Care</skin:category>
+        <skin:price>10.99</skin:price>
+        <skin:description>Provides all-day hold with a lightweight feel.</skin:description>
+        <skin:image>
+            https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/60419a86bd50fbd64d5825997c2f33d61325bc75-1200x1200.jpg?w=768&amp;h=660&amp;fit=fill&amp;auto=format&amp;q=80&amp;bg=fff</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="5">
+        <skin:name>Charcoal Face Wash</skin:name>
+        <skin:category>Mens Care</skin:category>
+        <skin:price>14.99</skin:price>
+        <skin:description>Deep cleansing face wash for oily skin.</skin:description>
+        <skin:image>
+            https://www.themancompany.com/cdn/shop/files/1_93dbca69-bdfe-4c96-8886-c25db14eea0d_765x.jpg?v=1698300482</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="6">
+        <skin:name>Blanc Fragrance Collection</skin:name>
+        <skin:category>Mens Care</skin:category>
+        <skin:price>19.99</skin:price>
+        <skin:description>Sophisticated fragrances for everyday freshness.</skin:description>
+        <skin:image>
+            https://www.themancompany.com/cdn/shop/files/BLANC-CURATION-primary_765x.jpg?v=1707995607</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="7">
+        <skin:name>Bathe Me Up Combo</skin:name>
+        <skin:category>Mens Care</skin:category>
+        <skin:price>24.99</skin:price>
+        <skin:description>Complete bathing essentials for a refreshing shower.</skin:description>
+        <skin:image>https://www.themancompany.com/cdn/shop/files/bathe-me-up-combo_765x.jpg?v=1710747693</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="8">
+        <skin:name>Beard Oil</skin:name>
+        <skin:category>Mens Care</skin:category>
+        <skin:price>9.99</skin:price>
+        <skin:description>Nourishing beard oil for a fuller, healthier look.</skin:description>
+        <skin:image>
+            https://www.themancompany.com/cdn/shop/products/2_3503743c-c666-4238-a849-38745ae2d6c4_765x.jpg?v=1683107177</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="9">
+        <skin:name>Hair Styling Gel</skin:name>
+        <skin:category>Mens Care</skin:category>
+        <skin:price>12.99</skin:price>
+        <skin:description>Hold and style your hair effortlessly.</skin:description>
+        <skin:image>
+            https://www.themancompany.com/cdn/shop/files/1_9567556f-f7f1-4f76-b753-1e4a3c323385_765x.jpg?v=1691395134</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="10">
+        <skin:name>Body Care Duo</skin:name>
+        <skin:category>Mens Care</skin:category>
+        <skin:price>15.99</skin:price>
+        <skin:description>Two essential body care products for smooth skin.</skin:description>
+        <skin:image>
+            https://www.themancompany.com/cdn/shop/products/body-care-duo-front_765x.png?v=1605566922</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="11">
+        <skin:name>Fresh Feeling Set</skin:name>
+        <skin:category>Mens Care</skin:category>
+        <skin:price>17.99</skin:price>
+        <skin:description>Stay fresh all day with this men's grooming set.</skin:description>
+        <skin:image>https://www.themancompany.com/cdn/shop/products/fresh-feeling_765x.png?v=1650618687</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="12">
+        <skin:name>Green Nail Polish</skin:name>
+        <skin:category>Nail Care</skin:category>
+        <skin:price>12.99</skin:price>
+        <skin:description>Vegan nail polish with a long-lasting formula.</skin:description>
+        <skin:image>https://uk.manucurist.com/cdn/shop/products/image_12.jpg?v=1665588949&amp;width=360</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="13">
+        <skin:name>Cuticle Cream</skin:name>
+        <skin:category>Nail Care</skin:category>
+        <skin:price>8.99</skin:price>
+        <skin:description>Nourishing cream for healthy cuticles.</skin:description>
+        <skin:image>
+            https://dependcosmetic.com/wp-content/uploads/2019/09/3345-Cuticle-Cream-F%C3%B6rpackning-768x768.jpg</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="14">
+        <skin:name>Kickstart Nail Care</skin:name>
+        <skin:category>Nail Care</skin:category>
+        <skin:price>10.49</skin:price>
+        <skin:description>Revitalizing care for brittle nails.</skin:description>
+        <skin:image>
+            https://dependcosmetic.com/wp-content/uploads/2024/01/3341-Kickstart-Nail-Care-forpackning-rev1-300x360.jpg</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="15">
+        <skin:name>Ginseng Nail Serum</skin:name>
+        <skin:category>Nail Care</skin:category>
+        <skin:price>9.99</skin:price>
+        <skin:description>Strengthening serum for healthy nails.</skin:description>
+        <skin:image>
+            https://dependcosmetic.com/wp-content/uploads/2019/09/3346-gingeng-nagelserum-inneh%C3%A5ll-300x360.jpg</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="16">
+        <skin:name>3-Step Action Kit</skin:name>
+        <skin:category>Nail Care</skin:category>
+        <skin:price>14.99</skin:price>
+        <skin:description>Complete kit for nail care and maintenance.</skin:description>
+        <skin:image>
+            https://dependcosmetic.com/wp-content/uploads/2018/07/8944-3-step-action-kit-inneh%C3%A5ll-300x360.jpg</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="17">
+        <skin:name>Stop Tip Split</skin:name>
+        <skin:category>Nail Care</skin:category>
+        <skin:price>11.49</skin:price>
+        <skin:description>Prevents nail splitting and breaking.</skin:description>
+        <skin:image>
+            https://dependcosmetic.com/wp-content/uploads/2018/07/8954-stop-tip-split-inneh%C3%A5ll-300x360.jpg</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="18">
+        <skin:name>Top Gel</skin:name>
+        <skin:category>Nail Care</skin:category>
+        <skin:price>7.99</skin:price>
+        <skin:description>High-shine gel top coat for lasting results.</skin:description>
+        <skin:image>
+            https://dependcosmetic.com/wp-content/uploads/2018/07/8948-top-gel-inneh%C3%A5ll-300x360.jpg</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="19">
+        <skin:name>Hydrating Serum</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>24.99</skin:price>
+        <skin:description>Lightweight serum for intense hydration.</skin:description>
+        <skin:image>
+            https://www.sephora.com/productimages/sku/s2495547-main-zoom.jpg?pb=clean-at-sephora&amp;imwidth=500</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="20">
+        <skin:name>Exfoliating Scrub</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>32.00</skin:price>
+        <skin:description>Gentle scrub to remove dead skin cells.</skin:description>
+        <skin:image>https://www.sephora.com/productimages/sku/s2031391-main-zoom.jpg?imwidth=500</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="21">
+        <skin:name>Night Cream</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>45.00</skin:price>
+        <skin:description>Rich cream for overnight hydration.</skin:description>
+        <skin:image>https://www.sephora.com/productimages/sku/s2031508-main-zoom.jpg?imwidth=500</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="22">
+        <skin:name>Moisturizer</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>28.99</skin:price>
+        <skin:description>Hydrating cream for daily use.</skin:description>
+        <skin:image>https://www.sephora.com/productimages/sku/s2735132-main-zoom.jpg?imwidth=500</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="23">
+        <skin:name>Anti-Aging Cream</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>30.00</skin:price>
+        <skin:description>Reduces the appearance of fine lines.</skin:description>
+        <skin:image>https://www.sephora.com/productimages/sku/s2210607-main-zoom.jpg?imwidth=500</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="24">
+        <skin:name>Brightening Serum</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>50.00</skin:price>
+        <skin:description>Enhances skin radiance and evens tone.</skin:description>
+        <skin:image>
+            https://www.sephora.com/productimages/sku/s2404846-main-zoom.jpg?pb=clean-planet-aware&amp;imwidth=500</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="25">
+        <skin:name>Face Wash</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>22.00</skin:price>
+        <skin:description>Gentle cleanser for all skin types.</skin:description>
+        <skin:image>https://www.sephora.com/productimages/sku/s2663763-main-zoom.jpg?imwidth=500</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="26">
+        <skin:name>Revitalizing Gel</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>38.00</skin:price>
+        <skin:description>Gel moisturizer for a fresh feel.</skin:description>
+        <skin:image>
+            https://www.sephora.com/productimages/sku/s1863588-main-zoom.jpg?pb=clean-at-sephora&amp;imwidth=500</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="27">
+        <skin:name>Hydrating Mist</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>25.99</skin:price>
+        <skin:description>Refreshing mist for hydration on-the-go.</skin:description>
+        <skin:image>
+            https://www.sephora.com/productimages/sku/s1785856-main-zoom.jpg?pb=clean-at-sephora&amp;imwidth=500</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="28">
+        <skin:name>Luxury Facial Oil</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>48.00</skin:price>
+        <skin:description>Nourishing oil for radiant skin.</skin:description>
+        <skin:image>https://www.sephora.com/productimages/sku/s2421360-main-zoom.jpg?imwidth=500</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="29">
+        <skin:name>Soothing Cream</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>19.99</skin:price>
+        <skin:description>Calming cream for sensitive skin.</skin:description>
+        <skin:image>https://www.sephora.com/productimages/sku/s2640662-main-zoom.jpg?imwidth=500</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="30">
+        <skin:name>Clarifying Mask</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>35.00</skin:price>
+        <skin:description>Detoxifying mask for clearer skin.</skin:description>
+        <skin:image>https://www.sephora.com/productimages/sku/s2785293-main-zoom.jpg?imwidth=500</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="31">
+        <skin:name>Rejuvenating Serum</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>40.00</skin:price>
+        <skin:description>Serum that improves skin texture and tone.</skin:description>
+        <skin:image>
+            https://www.sephora.com/productimages/sku/s2671857-main-zoom.jpg?pb=allure-2023-bestofbeauty-badge&amp;imwidth=500</skin:image>
+        <skin:isNew>false</skin:isNew>
+    </skin:product>
+    <skin:product id="32">
+        <skin:name>Tresemme Keratin Smooth Shampoo</skin:name>
+        <skin:category>Hair Care</skin:category>
+        <skin:price>7.99</skin:price>
+        <skin:image>
+            https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/ca48881ec8742e134d7a755b59ee4d8961801a94-600x600.jpg?w=768&amp;h=660&amp;fit=fill&amp;auto=format&amp;q=80&amp;bg=fff</skin:image>
+        <skin:isNew>true</skin:isNew>
+    </skin:product>
+    <skin:product id="33">
+        <skin:name>Bath Me Up Combo</skin:name>
+        <skin:category>Men's Care</skin:category>
+        <skin:price>24.99</skin:price>
+        <skin:image>https://www.themancompany.com/cdn/shop/files/bathe-me-up-combo_765x.jpg?v=1710747693</skin:image>
+        <skin:isNew>true</skin:isNew>
+    </skin:product>
+    <skin:product id="34">
+        <skin:name>Cuticle Cream</skin:name>
+        <skin:category>Nail Care</skin:category>
+        <skin:price>8.99</skin:price>
+        <skin:image>
+            https://dependcosmetic.com/wp-content/uploads/2019/09/3345-Cuticle-Cream-F%C3%B6rpackning-768x768.jpg</skin:image>
+        <skin:isNew>true</skin:isNew>
+    </skin:product>
+    <skin:product id="35">
+        <skin:name>Brightening Serum</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>50.00</skin:price>
+        <skin:image>
+            https://www.sephora.com/productimages/sku/s2404846-main-zoom.jpg?pb=clean-planet-aware&amp;imwidth=500</skin:image>
+        <skin:isNew>true</skin:isNew>
+    </skin:product>
+    <skin:product id="36">
+        <skin:name>Rejuvenating Serum</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>40.00</skin:price>
+        <skin:image>
+            https://www.sephora.com/productimages/sku/s2671857-main-zoom.jpg?pb=allure-2023-bestofbeauty-badge&amp;imwidth=500</skin:image>
+        <skin:isNew>true</skin:isNew>
+    </skin:product>
+    <skin:product id="37">
+        <skin:name>Anti-Aging Cream</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>19.99</skin:price>
+        <skin:discountPrice>30.00</skin:discountPrice>
+        <skin:image>https://www.sephora.com/productimages/sku/s2210607-main-zoom.jpg?imwidth=500</skin:image>
+        <skin:isBest>true</skin:isBest>
+    </skin:product>
+    <skin:product id="38">
+        <skin:name>Clarifying Mask</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>25.99</skin:price>
+        <skin:discountPrice>35.99</skin:discountPrice>
+        <skin:image>https://www.sephora.com/productimages/sku/s2785293-main-zoom.jpg?imwidth=500</skin:image>
+        <skin:isBest>true</skin:isBest>
+    </skin:product>
+    <skin:product id="39">
+        <skin:name>Body Care Duo</skin:name>
+        <skin:category>Men's Care</skin:category>
+        <skin:price>7.99</skin:price>
+        <skin:discountPrice>15.99</skin:discountPrice>
+        <skin:image>
+            https://www.themancompany.com/cdn/shop/products/body-care-duo-front_765x.png?v=1605566922</skin:image>
+        <skin:isBest>true</skin:isBest>
+    </skin:product>
+    <skin:product id="40">
+        <skin:name>Charcoal Fash Wash</skin:name>
+        <skin:category>Men's Care</skin:category>
+        <skin:price>6.99</skin:price>
+        <skin:discountPrice>14.99</skin:discountPrice>
+        <skin:image>
+            https://www.themancompany.com/cdn/shop/files/1_93dbca69-bdfe-4c96-8886-c25db14eea0d_765x.jpg?v=1698300482</skin:image>
+        <skin:isBest>true</skin:isBest>
+    </skin:product>
+    <skin:product id="41">
+        <skin:name>Luxury Facial Oil</skin:name>
+        <skin:category>Skin Care</skin:category>
+        <skin:price>22.00</skin:price>
+        <skin:discountPrice>48.00</skin:discountPrice>
+        <skin:image>https://www.sephora.com/productimages/sku/s2421360-main-zoom.jpg?imwidth=500</skin:image>
+        <skin:isBest>true</skin:isBest>
+    </skin:product>
+</skin:products>

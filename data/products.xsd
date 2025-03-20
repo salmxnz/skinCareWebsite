@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.skincare.com/products"
+           xmlns:skin="http://www.skincare.com/products"
+           elementFormDefault="qualified">
+
+  <xs:element name="products">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="product" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string"/>
+              <xs:element name="category" type="xs:string"/>
+              <xs:element name="price" type="xs:decimal"/>
+              <xs:element name="discountPrice" type="xs:decimal" minOccurs="0"/>
+              <xs:element name="description" type="xs:string" minOccurs="0"/>
+              <xs:element name="image" type="xs:string"/>
+              <xs:choice>
+                <xs:element name="isNew" type="xs:boolean"/>
+                <xs:element name="isBest" type="xs:boolean"/>
+              </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:integer" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
