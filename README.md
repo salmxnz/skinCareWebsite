@@ -158,9 +158,6 @@ To test the SOAP service:
 ### Home Page
 ![Aura+ Skincare Website - Home](assets/img/main-website.png)
 
-### Hero Section
-![Aura+ Skincare Website - Hero](assets/img/HeroHeader.png)
-
 ### Shop Page
 ![Aura+ Skincare Website - Shop](assets/img/shop.png)
 
