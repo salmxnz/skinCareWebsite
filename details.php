@@ -1,4 +1,36 @@
 <!DOCTYPE html>
+<?php
+// Get product ID from URL parameter
+$product_id = isset($_GET['id']) ? $_GET['id'] : '51'; // Default to product ID 51 if none specified
+
+// Load XML
+$xml = new DOMDocument();
+$xml->load('data/products.xml');
+
+// Validate against XSD (optional)
+$isValid = $xml->schemaValidate('data/products.xsd');
+if (!$isValid) {
+    error_log("XML validation failed");
+}
+
+// Transform with XSLT
+$xslt = new XSLTProcessor();
+$xsl = new DOMDocument();
+$xsl->load('data/xslt/product_details.xslt');
+$xslt->importStylesheet($xsl);
+
+// Set the product ID parameter for XSLT
+$xslt->setParameter('', 'product_id', $product_id);
+
+// Transform XML to HTML
+$productHtml = $xslt->transformToXML($xml);
+
+// Get product name for page title
+$xpath = new DOMXPath($xml);
+$xpath->registerNamespace('skin', 'http://www.skincare.com/products');
+$productName = $xpath->evaluate("string(//skin:product[@id='$product_id']/skin:name)");
+$pageTitle = $productName ? $productName . ' | Product Page' : 'Product Details';
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,18 +58,17 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <!-- ============ CSS ============ -->
+    <!-- ============ CSS WITH CACHING ============ -->
 
-    <link rel="stylesheet" href="assets/css/styles2.css" />
-    <link rel="stylesheet" href="assets/css/colors/color-1.css" />
-    <link rel="stylesheet" href="assets/css/stylesMobile.css" />
-    <link rel="stylesheet" href="assets/css/details.css" />
-
+    <link rel="stylesheet" href="assets/css/styles2.css?v=<?php echo time(); ?>" />
+    <link rel="stylesheet" href="assets/css/colors/color-1.css?v=<?php echo time(); ?>" />
+    <link rel="stylesheet" href="assets/css/stylesMobile.css?v=<?php echo time(); ?>" />
+    <link rel="stylesheet" href="assets/css/details.css?v=<?php echo time(); ?>" />
 
     <!-- ============ NAVBAR Script ============ -->
     <script src="assets/js/navbarToggle.js"></script>
 
-    <title>Niacinamide 10% + Zinc 1% | Product Page</title>
+    <title><?php echo htmlspecialchars($pageTitle); ?></title>
 </head>
 <body>
     <!--=============== HEADER ===============-->
@@ -116,88 +147,10 @@
     <!--=============== MAIN ===============-->
     <main class="main">
         <!--=============== DETAILS ===============-->
-
-        <div class="product__container">
-          <div class="product__images">
-              <img id="mainImage" class="product__main-image" src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwce8a7cdf/Images/products/The%20Ordinary/rdn-niacinamide-10pct-zinc-1pct-30ml.png?sw=1200&sh=1200&sm=fit" alt="Niacinamide 10% + Zinc 1% Main Image">
-              <div class="product__thumbnails">
-                  <div class="product__thumbnail">
-                      <img src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwce8a7cdf/Images/products/The%20Ordinary/rdn-niacinamide-10pct-zinc-1pct-30ml.png?sw=1200&sh=1200&sm=fit" alt="Main Image Thumbnail">
-                  </div>
-                  <div class="product__thumbnail">
-                      <img src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwbf9b60a4/Images/products/The%20Ordinary/infographics/ord-niacainamide-zinc-blemish-serum-benefits-graphic.jpg?sw=1200&sh=1200&sm=fit" alt="Benefits Thumbnail">
-                  </div>
-                  <div class="product__thumbnail">
-                      <img src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwead98b9f/Images/products/The%20Ordinary/infographics/ord-niacinamide-zinc-blemish-ingredients-graphic.jpg?sw=1200&sh=1200&sm=fit" alt="Ingredients Thumbnail">
-                  </div>
-                  <div class="product__thumbnail">
-                      <img src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwcf135ad6/Images/products/The%20Ordinary/Before-After/ord-niacinamide-zinc-blemish-serum-before-after-pores.jpg?sw=1200&sh=1200&sm=fit" alt="Before and After Thumbnail">
-                  </div>
-              </div>
-          </div>
-          <div class="product__details">
-              <h2 class="product__title">Niacinamide 10% + Zinc 1% </h2>
-              <div class="product__description">
-                This high-strength vitamin and mineral formula visibly reduces blemishes and improves skin texture.
-                </div>
-                
-              <span class="product__price">$9.99</span>
-             
-              <div class="product__options">
-                  <div class="product__size">
-                      <button class="active">30ml</button>
-                      <button>60ml</button>
-                  </div>
-                  <div class="product__quantity">
-                      <label for="quantity">Quantity:</label>
-                      <input type="number" id="quantity" value="1" min="1">
-                  </div>
-              </div>
-              <div class="product__targets">
-                  <strong>Targets:</strong> Textural Irregularities, Dryness, Dullness, Visible Shine, Signs of Congestion
-              </div>
-              <div class="product__ingredients">
-                  <strong>Key Ingredients:</strong> Niacinamide, Zinc PCA
-              </div>
-              <div class="product__skin">
-                  <strong>Suitable for:</strong> All Skin Types
-              </div>
-              <div class="product__cart">
-                  <button>Add to Cart</button>
-              </div>
-              <div class="featured__review"></div>
-                <h4>Featured Review: Alex J.
-                  <div class="review__rating">
-                    <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span> 4/5
-                </div>
-                </h4>
-               
-                <p>
-                    I've been using this for a few weeks now, and I've already noticed an improvement in my skin texture. It's lightweight and absorbs quickly. Great addition to my skincare routine!
-                </p>
-            </div>
-            <div class="about__section">
-              <h3>About </h3>
-              <p>
-                  Our Niacinamide 10% + Zinc 1% formula is a water-based serum that boosts skin brightness, improves skin smoothness, and reinforces the skin barrier over time. It contains a high 10% concentration of Niacinamide (vitamin B3) and Zinc PCA.
-              </p>
-              <p>
-                  <strong>Note:</strong> Niacinamide and Zinc PCA is not a treatment for acne. For persistent acne-related conditions, we recommend speaking to your healthcare provider regarding treatment options. This formulation can be used alongside acne treatments if desired for added visible skin benefits.
-              </p>
-              <h3>Clinical Results</h3>
-              <ul>
-                  <li>Hydrating lightweight serum that improves the look of skin radiance and luminosity.</li>
-                  <li>Hydrates skin by reinforcing the skin barrier in as little as 7 days.</li>
-                  <li>Achieve smoother skin after 8 weeks.*</li>
-              </ul>
-              <p><em>*In a clinical study of 35 subjects applying product 2x/day for 8 weeks.</em></p>
-          </div>
-        </div>
-          </div>
+        <?php echo $productHtml; ?>
          
-  
-<!--=============== REVIEWS ===============-->
-      <div class="reviews__section">
+        <!--=============== REVIEWS ===============-->
+        <div class="reviews__section">
         <h3>Customer Reviews</h3>
 
         <div class="review">
@@ -235,7 +188,7 @@
                 <span class="review__date">October 5, 2024</span>
             </div>
             <p>
-                It’s good, but I didn’t see drastic changes. It’s hydrating and doesn’t irritate my skin, but I might try a stronger formula next time.
+                It's good, but I didn't see drastic changes. It's hydrating and doesn't irritate my skin, but I might try a stronger formula next time.
             </p>
         </div>
     </div>
@@ -313,27 +266,44 @@
       const mainImage = document.getElementById('mainImage');
       const thumbnails = document.querySelectorAll('.product__thumbnail img');
       const sizeButtons = document.querySelectorAll('.product__size button');
-      const quantityInput = document.getElementById('quantity');
-
-      thumbnails.forEach(thumbnail => {
-          thumbnail.addEventListener('click', () => {
-              mainImage.src = thumbnail.src;
-          });
-      });
-
+      
+      // Function to change main image
+      window.changeMainImage = function(src) {
+        mainImage.src = src;
+      };
+      
+      // Quantity functions
+      window.incrementQuantity = function() {
+        const quantityInput = document.getElementById('quantity');
+        let value = parseInt(quantityInput.value);
+        if (value < 10) {
+          quantityInput.value = value + 1;
+        }
+      };
+      
+      window.decrementQuantity = function() {
+        const quantityInput = document.getElementById('quantity');
+        let value = parseInt(quantityInput.value);
+        if (value > 1) {
+          quantityInput.value = value - 1;
+        }
+      };
+      
+      // Size selection
       sizeButtons.forEach(button => {
-          button.addEventListener('click', () => {
-              sizeButtons.forEach(btn => btn.classList.remove('active'));
-              button.classList.add('active');
-          });
+        button.addEventListener('click', () => {
+          sizeButtons.forEach(btn => btn.classList.remove('active'));
+          button.classList.add('active');
+        });
       });
-
-      document.querySelector('.product__cart button').addEventListener('click', () => {
-          const selectedSize = document.querySelector('.product__size button.active')?.textContent || '30ml';
-          const quantity = quantityInput.value;
-          alert(`Added ${quantity} of ${selectedSize} to cart.`);
+      
+      // Initialize thumbnails
+      thumbnails.forEach(thumbnail => {
+        thumbnail.addEventListener('click', () => {
+          mainImage.src = thumbnail.src;
+        });
       });
-  });
+    });
 </script>
 </body>
 </html>

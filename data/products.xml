@@ -1,390 +1,673 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<skin:products xmlns:skin="http://www.skincare.com/products"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.skincare.com/products products.xsd">
-    <skin:product id="1">
-        <skin:name>Tresemme Keratin Smooth Shampoo</skin:name>
-        <skin:category>Hair Care</skin:category>
-        <skin:price>7.99</skin:price>
-        <skin:description>Professional formula for nourished, smooth hair.</skin:description>
-        <skin:image>
+<skin:products xmlns:skin="http://www.skincare.com/products" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.skincare.com/products products.xsd">
+  <skin:product id="1">
+    <skin:name>Tresemme Keratin Smooth Shampoo</skin:name>
+    <skin:category>Hair Care</skin:category>
+    <skin:price>7.99</skin:price>
+    <skin:description>Professional formula for nourished, smooth hair.</skin:description>
+    <skin:image>
             https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/ca48881ec8742e134d7a755b59ee4d8961801a94-600x600.jpg?w=768&amp;h=660&amp;fit=fill&amp;auto=format&amp;q=80&amp;bg=fff</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="2">
-        <skin:name>Tresemme Moisture Rich Conditioner</skin:name>
-        <skin:category>Hair Care</skin:category>
-        <skin:price>8.49</skin:price>
-        <skin:description>Provides intense moisture for dry hair.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="2">
+    <skin:name>Tresemme Moisture Rich Conditioner</skin:name>
+    <skin:category>Hair Care</skin:category>
+    <skin:price>8.49</skin:price>
+    <skin:description>Provides intense moisture for dry hair.</skin:description>
+    <skin:image>
             https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/76510f2eb5a5f48062843f02789cf019b17af94f-600x600.jpg?w=768&amp;h=660&amp;fit=fill&amp;auto=format&amp;q=80&amp;bg=fff</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="3">
-        <skin:name>Tresemme Volume : &amp; Lift Mousse</skin:name>
-        <skin:category>Hair Care</skin:category>
-        <skin:price>9.99</skin:price>
-        <skin:description>Adds volume and lift for fuller-looking hair.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="3">
+    <skin:name>Tresemme Volume : &amp; Lift Mousse</skin:name>
+    <skin:category>Hair Care</skin:category>
+    <skin:price>9.99</skin:price>
+    <skin:description>Adds volume and lift for fuller-looking hair.</skin:description>
+    <skin:image>
             https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/504ddf32a2aee5cf487469255b8ae4c7ffb50dbb-2880x2880.png?w=768&amp;h=660&amp;fit=fill&amp;auto=format&amp;q=80&amp;bg=fff</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="4">
-        <skin:name>Tresemme Extra Hold Hair Spray</skin:name>
-        <skin:category>Hair Care</skin:category>
-        <skin:price>10.99</skin:price>
-        <skin:description>Provides all-day hold with a lightweight feel.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="4">
+    <skin:name>Tresemme Extra Hold Hair Spray</skin:name>
+    <skin:category>Hair Care</skin:category>
+    <skin:price>10.99</skin:price>
+    <skin:description>Provides all-day hold with a lightweight feel.</skin:description>
+    <skin:image>
             https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/60419a86bd50fbd64d5825997c2f33d61325bc75-1200x1200.jpg?w=768&amp;h=660&amp;fit=fill&amp;auto=format&amp;q=80&amp;bg=fff</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="5">
-        <skin:name>Charcoal Face Wash</skin:name>
-        <skin:category>Mens Care</skin:category>
-        <skin:price>14.99</skin:price>
-        <skin:description>Deep cleansing face wash for oily skin.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="5">
+    <skin:name>Charcoal Face Wash</skin:name>
+    <skin:category>Mens Care</skin:category>
+    <skin:price>14.99</skin:price>
+    <skin:description>Deep cleansing face wash for oily skin.</skin:description>
+    <skin:image>
             https://www.themancompany.com/cdn/shop/files/1_93dbca69-bdfe-4c96-8886-c25db14eea0d_765x.jpg?v=1698300482</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="6">
-        <skin:name>Blanc Fragrance Collection</skin:name>
-        <skin:category>Mens Care</skin:category>
-        <skin:price>19.99</skin:price>
-        <skin:description>Sophisticated fragrances for everyday freshness.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="6">
+    <skin:name>Blanc Fragrance Collection</skin:name>
+    <skin:category>Mens Care</skin:category>
+    <skin:price>19.99</skin:price>
+    <skin:description>Sophisticated fragrances for everyday freshness.</skin:description>
+    <skin:image>
             https://www.themancompany.com/cdn/shop/files/BLANC-CURATION-primary_765x.jpg?v=1707995607</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="7">
-        <skin:name>Bathe Me Up Combo</skin:name>
-        <skin:category>Mens Care</skin:category>
-        <skin:price>24.99</skin:price>
-        <skin:description>Complete bathing essentials for a refreshing shower.</skin:description>
-        <skin:image>https://www.themancompany.com/cdn/shop/files/bathe-me-up-combo_765x.jpg?v=1710747693</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="8">
-        <skin:name>Beard Oil</skin:name>
-        <skin:category>Mens Care</skin:category>
-        <skin:price>9.99</skin:price>
-        <skin:description>Nourishing beard oil for a fuller, healthier look.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="7">
+    <skin:name>Bathe Me Up Combo</skin:name>
+    <skin:category>Mens Care</skin:category>
+    <skin:price>24.99</skin:price>
+    <skin:description>Complete bathing essentials for a refreshing shower.</skin:description>
+    <skin:image>https://www.themancompany.com/cdn/shop/files/bathe-me-up-combo_765x.jpg?v=1710747693</skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="8">
+    <skin:name>Beard Oil</skin:name>
+    <skin:category>Mens Care</skin:category>
+    <skin:price>9.99</skin:price>
+    <skin:description>Nourishing beard oil for a fuller, healthier look.</skin:description>
+    <skin:image>
             https://www.themancompany.com/cdn/shop/products/2_3503743c-c666-4238-a849-38745ae2d6c4_765x.jpg?v=1683107177</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="9">
-        <skin:name>Hair Styling Gel</skin:name>
-        <skin:category>Mens Care</skin:category>
-        <skin:price>12.99</skin:price>
-        <skin:description>Hold and style your hair effortlessly.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="9">
+    <skin:name>Hair Styling Gel</skin:name>
+    <skin:category>Mens Care</skin:category>
+    <skin:price>12.99</skin:price>
+    <skin:description>Hold and style your hair effortlessly.</skin:description>
+    <skin:image>
             https://www.themancompany.com/cdn/shop/files/1_9567556f-f7f1-4f76-b753-1e4a3c323385_765x.jpg?v=1691395134</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="10">
-        <skin:name>Body Care Duo</skin:name>
-        <skin:category>Mens Care</skin:category>
-        <skin:price>15.99</skin:price>
-        <skin:description>Two essential body care products for smooth skin.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="10">
+    <skin:name>Body Care Duo</skin:name>
+    <skin:category>Mens Care</skin:category>
+    <skin:price>15.99</skin:price>
+    <skin:description>Two essential body care products for smooth skin.</skin:description>
+    <skin:image>
             https://www.themancompany.com/cdn/shop/products/body-care-duo-front_765x.png?v=1605566922</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="11">
-        <skin:name>Fresh Feeling Set</skin:name>
-        <skin:category>Mens Care</skin:category>
-        <skin:price>17.99</skin:price>
-        <skin:description>Stay fresh all day with this men's grooming set.</skin:description>
-        <skin:image>https://www.themancompany.com/cdn/shop/products/fresh-feeling_765x.png?v=1650618687</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="12">
-        <skin:name>Green Nail Polish</skin:name>
-        <skin:category>Nail Care</skin:category>
-        <skin:price>12.99</skin:price>
-        <skin:description>Vegan nail polish with a long-lasting formula.</skin:description>
-        <skin:image>https://uk.manucurist.com/cdn/shop/products/image_12.jpg?v=1665588949&amp;width=360</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="13">
-        <skin:name>Cuticle Cream</skin:name>
-        <skin:category>Nail Care</skin:category>
-        <skin:price>8.99</skin:price>
-        <skin:description>Nourishing cream for healthy cuticles.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="11">
+    <skin:name>Fresh Feeling Set</skin:name>
+    <skin:category>Mens Care</skin:category>
+    <skin:price>17.99</skin:price>
+    <skin:description>Stay fresh all day with this men's grooming set.</skin:description>
+    <skin:image>https://www.themancompany.com/cdn/shop/products/fresh-feeling_765x.png?v=1650618687</skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="12">
+    <skin:name>Green Nail Polish</skin:name>
+    <skin:category>Nail Care</skin:category>
+    <skin:price>12.99</skin:price>
+    <skin:description>Vegan nail polish with a long-lasting formula.</skin:description>
+    <skin:image>https://uk.manucurist.com/cdn/shop/products/image_12.jpg?v=1665588949&amp;width=360</skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="13">
+    <skin:name>Cuticle Cream</skin:name>
+    <skin:category>Nail Care</skin:category>
+    <skin:price>8.99</skin:price>
+    <skin:description>Nourishing cream for healthy cuticles.</skin:description>
+    <skin:image>
             https://dependcosmetic.com/wp-content/uploads/2019/09/3345-Cuticle-Cream-F%C3%B6rpackning-768x768.jpg</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="14">
-        <skin:name>Kickstart Nail Care</skin:name>
-        <skin:category>Nail Care</skin:category>
-        <skin:price>10.49</skin:price>
-        <skin:description>Revitalizing care for brittle nails.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="14">
+    <skin:name>Kickstart Nail Care</skin:name>
+    <skin:category>Nail Care</skin:category>
+    <skin:price>10.49</skin:price>
+    <skin:description>Revitalizing care for brittle nails.</skin:description>
+    <skin:image>
             https://dependcosmetic.com/wp-content/uploads/2024/01/3341-Kickstart-Nail-Care-forpackning-rev1-300x360.jpg</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="15">
-        <skin:name>Ginseng Nail Serum</skin:name>
-        <skin:category>Nail Care</skin:category>
-        <skin:price>9.99</skin:price>
-        <skin:description>Strengthening serum for healthy nails.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="15">
+    <skin:name>Ginseng Nail Serum</skin:name>
+    <skin:category>Nail Care</skin:category>
+    <skin:price>9.99</skin:price>
+    <skin:description>Strengthening serum for healthy nails.</skin:description>
+    <skin:image>
             https://dependcosmetic.com/wp-content/uploads/2019/09/3346-gingeng-nagelserum-inneh%C3%A5ll-300x360.jpg</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="16">
-        <skin:name>3-Step Action Kit</skin:name>
-        <skin:category>Nail Care</skin:category>
-        <skin:price>14.99</skin:price>
-        <skin:description>Complete kit for nail care and maintenance.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="16">
+    <skin:name>3-Step Action Kit</skin:name>
+    <skin:category>Nail Care</skin:category>
+    <skin:price>14.99</skin:price>
+    <skin:description>Complete kit for nail care and maintenance.</skin:description>
+    <skin:image>
             https://dependcosmetic.com/wp-content/uploads/2018/07/8944-3-step-action-kit-inneh%C3%A5ll-300x360.jpg</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="17">
-        <skin:name>Stop Tip Split</skin:name>
-        <skin:category>Nail Care</skin:category>
-        <skin:price>11.49</skin:price>
-        <skin:description>Prevents nail splitting and breaking.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="17">
+    <skin:name>Stop Tip Split</skin:name>
+    <skin:category>Nail Care</skin:category>
+    <skin:price>11.49</skin:price>
+    <skin:description>Prevents nail splitting and breaking.</skin:description>
+    <skin:image>
             https://dependcosmetic.com/wp-content/uploads/2018/07/8954-stop-tip-split-inneh%C3%A5ll-300x360.jpg</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="18">
-        <skin:name>Top Gel</skin:name>
-        <skin:category>Nail Care</skin:category>
-        <skin:price>7.99</skin:price>
-        <skin:description>High-shine gel top coat for lasting results.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="18">
+    <skin:name>Top Gel</skin:name>
+    <skin:category>Nail Care</skin:category>
+    <skin:price>7.99</skin:price>
+    <skin:description>High-shine gel top coat for lasting results.</skin:description>
+    <skin:image>
             https://dependcosmetic.com/wp-content/uploads/2018/07/8948-top-gel-inneh%C3%A5ll-300x360.jpg</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="19">
-        <skin:name>Hydrating Serum</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>24.99</skin:price>
-        <skin:description>Lightweight serum for intense hydration.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="19">
+    <skin:name>Hydrating Serum</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>24.99</skin:price>
+    <skin:description>Lightweight serum for intense hydration.</skin:description>
+    <skin:image>
             https://www.sephora.com/productimages/sku/s2495547-main-zoom.jpg?pb=clean-at-sephora&amp;imwidth=500</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="20">
-        <skin:name>Exfoliating Scrub</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>32.00</skin:price>
-        <skin:description>Gentle scrub to remove dead skin cells.</skin:description>
-        <skin:image>https://www.sephora.com/productimages/sku/s2031391-main-zoom.jpg?imwidth=500</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="21">
-        <skin:name>Night Cream</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>45.00</skin:price>
-        <skin:description>Rich cream for overnight hydration.</skin:description>
-        <skin:image>https://www.sephora.com/productimages/sku/s2031508-main-zoom.jpg?imwidth=500</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="22">
-        <skin:name>Moisturizer</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>28.99</skin:price>
-        <skin:description>Hydrating cream for daily use.</skin:description>
-        <skin:image>https://www.sephora.com/productimages/sku/s2735132-main-zoom.jpg?imwidth=500</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="23">
-        <skin:name>Anti-Aging Cream</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>30.00</skin:price>
-        <skin:description>Reduces the appearance of fine lines.</skin:description>
-        <skin:image>https://www.sephora.com/productimages/sku/s2210607-main-zoom.jpg?imwidth=500</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="24">
-        <skin:name>Brightening Serum</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>50.00</skin:price>
-        <skin:description>Enhances skin radiance and evens tone.</skin:description>
-        <skin:options>
-            <skin:option>30 ml</skin:option>
-            <skin:option>60 ml</skin:option>
-            <skin:option>100 ml</skin:option>
-        </skin:options>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="20">
+    <skin:name>Exfoliating Scrub</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>32.00</skin:price>
+    <skin:description>Gentle scrub to remove dead skin cells.</skin:description>
+    <skin:image>https://www.sephora.com/productimages/sku/s2031391-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="21">
+    <skin:name>Night Cream</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>45.00</skin:price>
+    <skin:description>Rich cream for overnight hydration.</skin:description>
+    <skin:image>https://www.sephora.com/productimages/sku/s2031508-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="22">
+    <skin:name>Moisturizer</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>28.99</skin:price>
+    <skin:description>Hydrating cream for daily use.</skin:description>
+    <skin:image>https://www.sephora.com/productimages/sku/s2735132-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="23">
+    <skin:name>Anti-Aging Cream</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>30.00</skin:price>
+    <skin:description>Reduces the appearance of fine lines.</skin:description>
+    <skin:image>https://www.sephora.com/productimages/sku/s2210607-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="24">
+    <skin:name>Brightening Serum</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>50.00</skin:price>
+    <skin:description>Enhances skin radiance and evens tone.</skin:description>
+    <skin:options>
+      <skin:option>30 ml</skin:option>
+      <skin:option>60 ml</skin:option>
+      <skin:option>100 ml</skin:option>
+    </skin:options>
+    <skin:image>
             https://www.sephora.com/productimages/sku/s2404846-main-zoom.jpg?pb=clean-planet-aware&amp;imwidth=500</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="25">
-        <skin:name>Face Wash</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>22.00</skin:price>
-        <skin:description>Gentle cleanser for all skin types.</skin:description>
-        <skin:image>https://www.sephora.com/productimages/sku/s2663763-main-zoom.jpg?imwidth=500</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="26">
-        <skin:name>Revitalizing Gel</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>38.00</skin:price>
-        <skin:description>Gel moisturizer for a fresh feel.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="25">
+    <skin:name>Face Wash</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>22.00</skin:price>
+    <skin:description>Gentle cleanser for all skin types.</skin:description>
+    <skin:image>https://www.sephora.com/productimages/sku/s2663763-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="26">
+    <skin:name>Revitalizing Gel</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>38.00</skin:price>
+    <skin:description>Gel moisturizer for a fresh feel.</skin:description>
+    <skin:image>
             https://www.sephora.com/productimages/sku/s1863588-main-zoom.jpg?pb=clean-at-sephora&amp;imwidth=500</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="27">
-        <skin:name>Hydrating Mist</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>25.99</skin:price>
-        <skin:description>Refreshing mist for hydration on-the-go.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="27">
+    <skin:name>Hydrating Mist</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>25.99</skin:price>
+    <skin:description>Refreshing mist for hydration on-the-go.</skin:description>
+    <skin:image>
             https://www.sephora.com/productimages/sku/s1785856-main-zoom.jpg?pb=clean-at-sephora&amp;imwidth=500</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="28">
-        <skin:name>Luxury Facial Oil</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>48.00</skin:price>
-        <skin:description>Nourishing oil for radiant skin.</skin:description>
-        <skin:image>https://www.sephora.com/productimages/sku/s2421360-main-zoom.jpg?imwidth=500</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="29">
-        <skin:name>Soothing Cream</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>19.99</skin:price>
-        <skin:description>Calming cream for sensitive skin.</skin:description>
-        <skin:image>https://www.sephora.com/productimages/sku/s2640662-main-zoom.jpg?imwidth=500</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="30">
-        <skin:name>Clarifying Mask</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>35.00</skin:price>
-        <skin:description>Detoxifying mask for clearer skin.</skin:description>
-        <skin:image>https://www.sephora.com/productimages/sku/s2785293-main-zoom.jpg?imwidth=500</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="31">
-        <skin:name>Rejuvenating Serum</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>40.00</skin:price>
-        <skin:description>Serum that improves skin texture and tone.</skin:description>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="28">
+    <skin:name>Luxury Facial Oil</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>48.00</skin:price>
+    <skin:description>Nourishing oil for radiant skin.</skin:description>
+    <skin:image>https://www.sephora.com/productimages/sku/s2421360-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="29">
+    <skin:name>Soothing Cream</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>19.99</skin:price>
+    <skin:description>Calming cream for sensitive skin.</skin:description>
+    <skin:options>
+      <skin:option>30 ml</skin:option>
+      <skin:option>60 ml</skin:option>
+      <skin:option>100 ml</skin:option>
+    </skin:options>
+    <skin:image>https://www.sephora.com/productimages/sku/s2640662-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="30">
+    <skin:name>Clarifying Mask</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>35.00</skin:price>
+    <skin:description>Detoxifying mask for clearer skin.</skin:description>
+    <skin:image>https://www.sephora.com/productimages/sku/s2785293-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="31">
+    <skin:name>Rejuvenating Serum</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>40.00</skin:price>
+    <skin:description>Serum that improves skin texture and tone.</skin:description>
+    <skin:image>
             https://www.sephora.com/productimages/sku/s2671857-main-zoom.jpg?pb=allure-2023-bestofbeauty-badge&amp;imwidth=500</skin:image>
-        <skin:isNew>false</skin:isNew>
-    </skin:product>
-    <skin:product id="32">
-        <skin:name>Tresemme Keratin Smooth Shampoo</skin:name>
-        <skin:category>Hair Care</skin:category>
-        <skin:price>7.99</skin:price>
-        <skin:image>
+    <skin:isNew>false</skin:isNew>
+  </skin:product>
+  <skin:product id="32">
+    <skin:name>Tresemme Keratin Smooth Shampoo</skin:name>
+    <skin:category>Hair Care</skin:category>
+    <skin:price>7.99</skin:price>
+    <skin:image>
             https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/ca48881ec8742e134d7a755b59ee4d8961801a94-600x600.jpg?w=768&amp;h=660&amp;fit=fill&amp;auto=format&amp;q=80&amp;bg=fff</skin:image>
-        <skin:isNew>true</skin:isNew>
-    </skin:product>
-    <skin:product id="33">
-        <skin:name>Bath Me Up Combo</skin:name>
-        <skin:category>Men's Care</skin:category>
-        <skin:price>24.99</skin:price>
-        <skin:image>https://www.themancompany.com/cdn/shop/files/bathe-me-up-combo_765x.jpg?v=1710747693</skin:image>
-        <skin:isNew>true</skin:isNew>
-    </skin:product>
-    <skin:product id="34">
-        <skin:name>Cuticle Cream</skin:name>
-        <skin:category>Nail Care</skin:category>
-        <skin:price>8.99</skin:price>
-        <skin:image>
+    <skin:isNew>true</skin:isNew>
+  </skin:product>
+  <skin:product id="33">
+    <skin:name>Bath Me Up Combo</skin:name>
+    <skin:category>Men's Care</skin:category>
+    <skin:price>24.99</skin:price>
+    <skin:image>https://www.themancompany.com/cdn/shop/files/bathe-me-up-combo_765x.jpg?v=1710747693</skin:image>
+    <skin:isNew>true</skin:isNew>
+  </skin:product>
+  <skin:product id="34">
+    <skin:name>Cuticle Cream</skin:name>
+    <skin:category>Nail Care</skin:category>
+    <skin:price>8.99</skin:price>
+    <skin:image>
             https://dependcosmetic.com/wp-content/uploads/2019/09/3345-Cuticle-Cream-F%C3%B6rpackning-768x768.jpg</skin:image>
-        <skin:isNew>true</skin:isNew>
-    </skin:product>
-    <skin:product id="35">
-        <skin:name>Brightening Serum</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>50.00</skin:price>
-        <skin:image>
+    <skin:isNew>true</skin:isNew>
+  </skin:product>
+  <skin:product id="35">
+    <skin:name>Brightening Serum</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>50.00</skin:price>
+    <skin:image>
             https://www.sephora.com/productimages/sku/s2404846-main-zoom.jpg?pb=clean-planet-aware&amp;imwidth=500</skin:image>
-        <skin:isNew>true</skin:isNew>
-    </skin:product>
-    <skin:product id="36">
-        <skin:name>Rejuvenating Serum</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>40.00</skin:price>
-        <skin:image>
+    <skin:isNew>true</skin:isNew>
+  </skin:product>
+  <skin:product id="36">
+    <skin:name>Rejuvenating Serum</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>40.00</skin:price>
+    <skin:image>
             https://www.sephora.com/productimages/sku/s2671857-main-zoom.jpg?pb=allure-2023-bestofbeauty-badge&amp;imwidth=500</skin:image>
-        <skin:isNew>true</skin:isNew>
-    </skin:product>
-    <skin:product id="37">
-        <skin:name>Anti-Aging Cream</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>19.99</skin:price>
-        <skin:discountPrice>30.00</skin:discountPrice>
-        <skin:image>https://www.sephora.com/productimages/sku/s2210607-main-zoom.jpg?imwidth=500</skin:image>
-        <skin:isBest>true</skin:isBest>
-    </skin:product>
-    <skin:product id="38">
-        <skin:name>Clarifying Mask</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>25.99</skin:price>
-        <skin:discountPrice>35.99</skin:discountPrice>
-        <skin:image>https://www.sephora.com/productimages/sku/s2785293-main-zoom.jpg?imwidth=500</skin:image>
-        <skin:isBest>true</skin:isBest>
-    </skin:product>
-    <skin:product id="39">
-        <skin:name>Body Care Duo</skin:name>
-        <skin:category>Men's Care</skin:category>
-        <skin:price>7.99</skin:price>
-        <skin:discountPrice>15.99</skin:discountPrice>
-        <skin:image>
+    <skin:isNew>true</skin:isNew>
+  </skin:product>
+  <skin:product id="37">
+    <skin:name>Anti-Aging Cream</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>19.99</skin:price>
+    <skin:discountPrice>30.00</skin:discountPrice>
+    <skin:image>https://www.sephora.com/productimages/sku/s2210607-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:isBest>true</skin:isBest>
+  </skin:product>
+  <skin:product id="38">
+    <skin:name>Clarifying Mask</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>25.99</skin:price>
+    <skin:discountPrice>35.99</skin:discountPrice>
+    <skin:image>https://www.sephora.com/productimages/sku/s2785293-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:isBest>true</skin:isBest>
+  </skin:product>
+  <skin:product id="39">
+    <skin:name>Body Care Duo</skin:name>
+    <skin:category>Men's Care</skin:category>
+    <skin:price>7.99</skin:price>
+    <skin:discountPrice>15.99</skin:discountPrice>
+    <skin:image>
             https://www.themancompany.com/cdn/shop/products/body-care-duo-front_765x.png?v=1605566922</skin:image>
-        <skin:isBest>true</skin:isBest>
-    </skin:product>
-    <skin:product id="40">
-        <skin:name>Charcoal Fash Wash</skin:name>
-        <skin:category>Men's Care</skin:category>
-        <skin:price>6.99</skin:price>
-        <skin:discountPrice>14.99</skin:discountPrice>
-        <skin:image>
+    <skin:isBest>true</skin:isBest>
+  </skin:product>
+  <skin:product id="40">
+    <skin:name>Charcoal Fash Wash</skin:name>
+    <skin:category>Men's Care</skin:category>
+    <skin:price>6.99</skin:price>
+    <skin:discountPrice>14.99</skin:discountPrice>
+    <skin:image>
             https://www.themancompany.com/cdn/shop/files/1_93dbca69-bdfe-4c96-8886-c25db14eea0d_765x.jpg?v=1698300482</skin:image>
-        <skin:isBest>true</skin:isBest>
-    </skin:product>
-    <skin:product id="41">
-        <skin:name>Luxury Facial Oil</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>22.00</skin:price>
-        <skin:discountPrice>48.00</skin:discountPrice>
-        <skin:image>https://www.sephora.com/productimages/sku/s2421360-main-zoom.jpg?imwidth=500</skin:image>
-        <skin:isBest>true</skin:isBest>
-    </skin:product>
-    <skin:product id="42">
-        <skin:name>Niacinamide 10% + Zinc 1%</skin:name>
-        <skin:category>Skin Care</skin:category>
-        <skin:price>22.00</skin:price>
-        <skin:discountPrice>9.99</skin:discountPrice>
-        <skin:description>
+    <skin:isBest>true</skin:isBest>
+  </skin:product>
+  <skin:product id="41">
+    <skin:name>Luxury Facial Oil</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>22.00</skin:price>
+    <skin:discountPrice>48.00</skin:discountPrice>
+    <skin:image>https://www.sephora.com/productimages/sku/s2421360-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:isBest>true</skin:isBest>
+  </skin:product>
+  <skin:product id="42">
+    <skin:name>Niacinamide 10% + Zinc 1%</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>22.00</skin:price>
+    <skin:discountPrice>9.99</skin:discountPrice>
+    <skin:description>
             Reduces blemishes and improves skin texture.
         </skin:description>
-        <skin:descriptionfullall>
-            <skin:description_item>
+    <skin:descriptionfullall>
+      <skin:description_item>
                 Our Niacinamide 10% + Zinc 1% formula is a water-based serum that boosts skin brightness, improves skin smoothness, and reinforces the skin barrier over time. It contains a high 10% concentration of Niacinamide (vitamin B3) and Zinc PCA.
             </skin:description_item>
-            <skin:description_item>
+      <skin:description_item>
                 Note: Niacinamide and Zinc PCA is not a treatment for acne. For persistent acne-related conditions, we recommend speaking to your healthcare provider regarding treatment options. This formulation can be used alongside acne treatments if desired for added visible skin benefits.
             </skin:description_item>
-            <skin:description_item>
+      <skin:description_item>
                 Clinical Results
 Hydrating lightweight serum that improves the look of skin radiance and luminosity.
 Hydrates skin by reinforcing the skin barrier in as little as 7 days.
 Achieve smoother skin after 8 weeks.
 *In a clinical study of 35 subjects applying product 2x/day for 8 weeks.
             </skin:description_item>
-        </skin:descriptionfullall>
-        <skin:image>https://www.sephora.com/productimages/sku/s2421360-main-zoom.jpg?imwidth=500</skin:image>
-        <skin:detail_images>
-            <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/de…serum-benefits-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
-            <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/de…sh-ingredients-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
-            <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwcf135ad6/Images/products/The%20Ordinary/Before-After/ord-niacinamide-zinc-blemish-serum-before-after-pores.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
-        </skin:detail_images>
-        <skin:isBest>true</skin:isBest>
-    </skin:product>
+    </skin:descriptionfullall>
+    <skin:image>https://www.sephora.com/productimages/sku/s2421360-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:detail_images>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/de…serum-benefits-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/de…sh-ingredients-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwcf135ad6/Images/products/The%20Ordinary/Before-After/ord-niacinamide-zinc-blemish-serum-before-after-pores.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+    </skin:detail_images>
+    <skin:isBest>true</skin:isBest>
+  </skin:product>
+  <skin:product id="43">
+    <skin:name>Hyaluronic Acid 2% + B5</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>8.90</skin:price>
+    <skin:discountPrice>7.50</skin:discountPrice>
+    <skin:description>Hydrates and plumps the skin.</skin:description>
+    <skin:descriptionfullall>
+      <skin:description_item>
+                This formulation combines low, medium, and high molecular weight hyaluronic acid, as well as a next-generation H.A. crosspolymer at a combined concentration of 2% for multi-depth hydration. This system is supported with the addition of Vitamin B5 which also enhances surface hydration.
+            </skin:description_item>
+      <skin:description_item>
+                Hyaluronic Acid 2% + B5 offers deep, lasting hydration and works to smooth and plump the skin, reducing the appearance of fine lines and wrinkles.
+            </skin:description_item>
+      <skin:description_item>
+                Clinical Results:
+                Increased skin hydration.
+                Improved skin smoothness.
+                Reduced appearance of fine lines.
+            </skin:description_item>
+    </skin:descriptionfullall>
+    <skin:image>https://tse4.mm.bing.net/th?id=OIP.QT3uoTTqz4ByjnRmgZcu8AHaJC&amp;pid=Api</skin:image>
+    <skin:detail_images>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw2c25608d/Images/products/The%20Ordinary/Hyaluronic%20Acid%202%25%20B5/ord-hyaluronic-acid-2-b5-benefits-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw102c98a5/Images/products/The%20Ordinary/Hyaluronic%20Acid%202%25%20B5/ord-hyaluronic-acid-2-b5-ingredients-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwc6691456/Images/products/The%20Ordinary/Before-After/ord-hyaluronic-acid-2-b5-before-after-hydration.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+    </skin:detail_images>
+    <skin:isBest>true</skin:isBest>
+  </skin:product>
+  <skin:product id="44">
+    <skin:name>Salicylic Acid 2% Solution</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>6.50</skin:price>
+    <skin:discountPrice>5.80</skin:discountPrice>
+    <skin:description>Exfoliates and unclogs pores.</skin:description>
+    <skin:descriptionfullall>
+      <skin:description_item>
+                This formulation offers superficial peeling that helps exfoliate inside the walls of pores to fight the appearance of blemishes and for better visible skin clarity with continued use.
+            </skin:description_item>
+      <skin:description_item>
+                Salicylic Acid (BHA) exfoliates the skin to help reduce congestion in pores. It is suitable for acne-prone skin and can help to reduce the appearance of blackheads and whiteheads.
+            </skin:description_item>
+      <skin:description_item>
+                Clinical Results:
+                Reduces the appearance of blemishes.
+                Improves skin clarity.
+                Unclogs pores.
+            </skin:description_item>
+    </skin:descriptionfullall>
+    <skin:image>https://evebeautique.com/wp-content/uploads/2023/02/B42377CA-2C6C-4BDF-B117-FB4762A7CBAC.png</skin:image>
+    <skin:detail_images>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw9803158c/Images/products/The%20Ordinary/Salicylic%20Acid%202%25%20Solution/ord-salicylic-acid-2-solution-benefits-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw10875791/Images/products/The%20Ordinary/Salicylic%20Acid%202%25%20Solution/ord-salicylic-acid-2-solution-ingredients-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw54425501/Images/products/The%20Ordinary/Before-After/ord-salicylic-acid-2-solution-before-after-pores.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+    </skin:detail_images>
+    <skin:isBest>false</skin:isBest>
+  </skin:product>
+  <skin:product id="45">
+    <skin:name>AHA 30% + BHA 2% Peeling Solution</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>9.50</skin:price>
+    <skin:discountPrice>8.00</skin:discountPrice>
+    <skin:description>Deeply exfoliates for brighter, smoother skin.</skin:description>
+    <skin:descriptionfullall>
+      <skin:description_item>
+                This 10-minute exfoliating facial uses a combined 30% AHA (alpha hydroxyl acid) and 2% BHA (beta hydroxyl acid) to deeply exfoliate, helping to reduce the appearance of blemishes and improve skin texture.
+            </skin:description_item>
+      <skin:description_item>
+                It helps to improve the look of skin texture and reduces the appearance of fine lines with continued use. This formula also contains Tasmanian Pepperberry derivative to help reduce irritation associated with acid use.
+            </skin:description_item>
+      <skin:description_item>
+                Clinical Results:
+                Improved skin texture.
+                Reduced appearance of fine lines.
+                Brighter, more radiant skin.
+            </skin:description_item>
+    </skin:descriptionfullall>
+    <skin:image>https://tse1.mm.bing.net/th?id=OIP.OO3MIz29m9ftpMP-jYjUfQHaJ4&amp;pid=Api</skin:image>
+    <skin:detail_images>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw614b8a53/Images/products/The%20Ordinary/AHA%2030%25%20BHA%202%25%20Peeling%20Solution/ord-aha-30-bha-2-peeling-solution-benefits-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw32</skin:detail_image>
+    </skin:detail_images>
+    <skin:isBest>true</skin:isBest>
+  </skin:product>
+  <skin:product id="46">
+    <skin:name>100% Organic Cold-Pressed Moroccan Argan Oil</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>8.20</skin:price>
+    <skin:discountPrice>7.00</skin:discountPrice>
+    <skin:description>Hydrates and supports healthy skin.</skin:description>
+    <skin:descriptionfullall>
+      <skin:description_item>
+                This formulation uses 100% pure Moroccan Argan Seed Oil extracted through a cold pressing.
+            </skin:description_item>
+      <skin:description_item>
+                Argan oil is rich in fatty acids, vitamin E, and antioxidants, and can be used on the hair and skin. It helps to hydrate and nourish.
+            </skin:description_item>
+      <skin:description_item>
+                Benefits:
+                Supports healthy skin.
+                Adds shine to hair.
+                Reduces frizz.
+            </skin:description_item>
+    </skin:descriptionfullall>
+    <skin:image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw17ee2a73/Images/products/The%20Ordinary/rdn-100pct-organic-cold-pressed-moroccan-argan-oil-30ml.png?sw=800&amp;sh=800&amp;sm=fit</skin:image>
+    <skin:detail_images>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwdd7b5e62/Images/products/The%20Ordinary/lifestyle/mas-rdn-100pct-organic-cold-pressed-moroccan-argan-oil-lifestyle.jpg?sw=800&amp;sh=800&amp;sm=fit</skin:detail_image>
+    </skin:detail_images>
+    <skin:isBest>false</skin:isBest>
+  </skin:product>
+  <skin:product id="47">
+    <skin:name>100% Organic Cold-Pressed Rose Hip Seed Oil</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>10.90</skin:price>
+    <skin:discountPrice>9.50</skin:discountPrice>
+    <skin:description>Supports healthy, radiant skin.</skin:description>
+    <skin:descriptionfullall>
+      <skin:description_item>
+                This formulation uses 100% pure Rosehip Seed Oil that is both cold-pressed and organic.
+            </skin:description_item>
+      <skin:description_item>
+                Rosehip Seed Oil is rich in linoleic acid, linolenic acid and pro-vitamin A. It has been shown to reduce the signs of photo-ageing and support healthy skin.
+            </skin:description_item>
+      <skin:description_item>
+                Benefits:
+                Supports skin health.
+                Reduces signs of photo-ageing.
+                Hydrates the skin.
+            </skin:description_item>
+    </skin:descriptionfullall>
+    <skin:image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw5045dd08/Images/products/The%20Ordinary/rdn-100pct-organic-cold-pressed-rose-hip-seed-oil-30ml.png?sw=800&amp;sh=800&amp;sm=fit</skin:image>
+    <skin:detail_images>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw2023d611/Images/products/The%20Ordinary/100%25%20Organic%20Cold-Pressed%20Rose%20Hip%20Seed%20Oil/ord-100-organic-cold-pressed-rose-hip-seed-oil-benefits-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw20a0680a/Images/products/The%20Ordinary/100%25%20Organic%20Cold-Pressed%20Rose%20Hip%20Seed%20Oil/ord-100-organic-cold-pressed-rose-hip-seed-oil-ingredients-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+    </skin:detail_images>
+    <skin:isBest>false</skin:isBest>
+  </skin:product>
+  <skin:product id="48">
+    <skin:name>Glycolic Acid 7% Toning Solution</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>8.70</skin:price>
+    <skin:discountPrice>7.50</skin:discountPrice>
+    <skin:description>Exfoliating toning solution.</skin:description>
+    <skin:descriptionfullall>
+      <skin:description_item>
+                This toning solution offers mild exfoliation for improved skin radiance and visible clarity.
+            </skin:description_item>
+      <skin:description_item>
+                It contains glycolic acid, amino acids, aloe vera, ginseng and Tasmanian Pepperberry.
+            </skin:description_item>
+      <skin:description_item>
+                Benefits:
+                Improves skin radiance.
+                Enhances skin clarity.
+                Exfoliates gently.
+            </skin:description_item>
+    </skin:descriptionfullall>
+    <skin:image>https://www.sephora.com/productimages/sku/s2062562-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:detail_images>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw060a6a42/Images/products/The%20Ordinary/Glycolic%20Acid%207%25%20Toning%20Solution/ord-glycolic-acid-7-toning-solution-benefits-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw9e75529f/Images/products/The%20Ordinary/Glycolic%20Acid%207%25%20Toning%20Solution/ord-glycolic-acid-7-toning-solution-ingredients-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwc659e515/Images/products/The%20Ordinary/Before-After/ord-glycolic-acid-7-toning-solution-before-after-texture.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+    </skin:detail_images>
+    <skin:isBest>false</skin:isBest>
+  </skin:product>
+  <skin:product id="49">
+    <skin:name>Lactic Acid 10% + HA</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>7.90</skin:price>
+    <skin:discountPrice>6.80</skin:discountPrice>
+    <skin:description>Mild exfoliating treatment.</skin:description>
+    <skin:descriptionfullall>
+      <skin:description_item>
+                A high-strength lactic acid peeling formulation for effective exfoliation.
+            </skin:description_item>
+      <skin:description_item>
+                Lactic Acid is an alpha hydroxy acid that exfoliates the skin. This formulation offers a 10% concentration to provide mild exfoliation and is supported with purified Tasmanian pepperberry, a studied ingredient that helps to reduce signs of inflammation and sensitivity that is often associated with exfoliation.
+            </skin:description_item>
+      <skin:description_item>
+                Benefits:
+                Exfoliates the skin.
+                Improves skin texture.
+                Reduces signs of inflammation.
+            </skin:description_item>
+    </skin:descriptionfullall>
+    <skin:image>https://www.sephora.com/productimages/sku/s2062570-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:detail_images>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw239a5317/Images/products/The%20Ordinary/Lactic%20Acid%2010%25%20HA/ord-lactic-acid-10-ha-benefits-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw68e27c14/Images/products/The%20Ordinary/Lactic%20Acid%2010%25%20HA/ord-lactic-acid-10-ha-ingredients-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+    </skin:detail_images>
+    <skin:isBest>false</skin:isBest>
+  </skin:product>
+  <skin:product id="50">
+    <skin:name>Caffeine Solution 5% + EGCG</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>7.30</skin:price>
+    <skin:discountPrice>6.20</skin:discountPrice>
+    <skin:description>Reduces the appearance of eye contour pigmentation and puffiness.</skin:description>
+    <skin:descriptionfullall>
+      <skin:description_item>
+                This light-textured formula contains an extremely high concentration of 5% caffeine, supplemented with highly-purified Epigallocatechin Gallatyl Glucoside (EGCG) from green tea leaves.
+            </skin:description_item>
+      <skin:description_item>
+                Independent studies have shown that topical use of each of caffeine and EGCG can help reduce looks of puffiness and of dark circles in the eye contour.
+            </skin:description_item>
+      <skin:description_item>
+                Benefits:
+                Reduces eye puffiness.
+                Minimizes dark circles.
+            </skin:description_item>
+    </skin:descriptionfullall>
+    <skin:image>https://tse2.mm.bing.net/th?id=OIP.N5QcpNPV5I1w3UuSGWAg3gHaHa&amp;pid=Api</skin:image>
+    <skin:detail_images>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw763321db/Images/products/The%20Ordinary/Caffeine%20Solution%205%25%20EGCG/ord-caffeine-solution-5-egcg-benefits-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw853488f2/Images/products/The%20Ordinary/Caffeine%20Solution%205%25%20EGCG/ord-caffeine-solution-5-egcg-ingredients-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+    </skin:detail_images>
+    <skin:isBest>false</skin:isBest>
+  </skin:product>
+  <skin:product id="51">
+    <skin:name>Peptide Serum</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>14.80</skin:price>
+    <skin:discountPrice>12.60</skin:discountPrice>
+    <skin:description>Multi-technology peptide serum.</skin:description>
+    <skin:descriptionfullall>
+      <skin:description_item>
+                This formula combines a comprehensive array of studied technologies to target multiple signs of ageing at once.
+            </skin:description_item>
+      <skin:description_item>
+                The technologies are a matrixyl 3,000 peptide complex (with palmitoyl tetrapeptide-7), matrixyl synthe'6 peptide complex (with palmitoyl tripeptide-38), SYN-AKE peptide complex (with dipeptide diaminobutyroyl benzylamide diacetate), relesyst peptide complex (with palmitoyl tripeptide-5), copper tripeptide-1, and 11 amino acids and multiple hyaluronic acid complexes.
+            </skin:description_item>
+      <skin:description_item>
+                Benefits:
+                Targets multiple signs of ageing.
+                Reduces fine lines and wrinkles.
+                Improves skin texture.
+            </skin:description_item>
+    </skin:descriptionfullall>
+    <skin:image>https://www.sephora.com/productimages/sku/s1861094-main-zoom.jpg?imwidth=500</skin:image>
+    <skin:detail_images>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw502120ee/Images/products/The%20Ordinary/Buffet/ord-buffet-benefits-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+      <skin:detail_image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw2044812f/Images/products/The%20Ordinary/Buffet/ord-buffet-ingredients-graphic.jpg?sw=1200&amp;sh=1200&amp;sm=fit</skin:detail_image>
+    </skin:detail_images>
+    <skin:isBest>true</skin:isBest>
+  </skin:product>
+  <skin:product id="52">
+    <skin:name>Squalane + Amino Acids Lip Balm</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>10.99</skin:price>
+    <skin:discountPrice>2.99</skin:discountPrice>
+    <skin:description>Helps you</skin:description>
+    <skin:image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwd9af744d/Images/products/The%20Ordinary/ord-squalane-amino-acids-lip-balm.png?sw=800&amp;sh=800&amp;sm=fit</skin:image>
+    <skin:isNew>true</skin:isNew>
+  </skin:product>
+  <skin:product id="53">
+    <skin:name>Squalane + Amino Acids Lip Balm</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>10.99</skin:price>
+    <skin:discountPrice>2.99</skin:discountPrice>
+    <skin:description>Helps you</skin:description>
+    <skin:image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwd9af744d/Images/products/The%20Ordinary/ord-squalane-amino-acids-lip-balm.png?sw=800&amp;sh=800&amp;sm=fit</skin:image>
+    <skin:isNew>true</skin:isNew>
+  </skin:product>
+  <skin:product id="54">
+    <skin:name>Squalane + Amino Acids Lip Balm</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>10.99</skin:price>
+    <skin:discountPrice>2.99</skin:discountPrice>
+    <skin:description>Helps you</skin:description>
+    <skin:image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwd9af744d/Images/products/The%20Ordinary/ord-squalane-amino-acids-lip-balm.png?sw=800&amp;sh=800&amp;sm=fit</skin:image>
+    <skin:isNew>true</skin:isNew>
+  </skin:product>
+  <skin:product id="55">
+    <skin:name>Serum Foundation Ordinary</skin:name>
+    <skin:category>Skin Care</skin:category>
+    <skin:price>10.99</skin:price>
+    <skin:discountPrice>15.99</skin:discountPrice>
+    <skin:description>Serum for Hair</skin:description>
+    <skin:image>https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw60f28d4c/Images/products/The%20Ordinary/Colours/rdn-serum-foundation-31-y-30ml.png?sw=800&amp;sh=800&amp;sm=fit</skin:image>
+    <skin:isNew>true</skin:isNew>
+  </skin:product>
 </skin:products>

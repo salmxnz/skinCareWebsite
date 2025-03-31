@@ -42,6 +42,27 @@
 
     <!-- ============ NAVBAR Script ============ -->
     <script src="assets/js/navbarToggle.js"></script>
+    
+    <!-- ============ AJAX Email Validation Script ============ -->
+    <script>
+    $(document).ready(function(){
+        $('#email').keyup(function(){
+            var email = $(this).val();
+            if(email != '') {
+                $.ajax({
+                    url: 'check_email.php',
+                    method: 'GET',
+                    data: {email: email},
+                    success: function(data){
+                        $('#email-status').html(data);
+                    }
+                });
+            } else {
+                $('#email-status').html('');
+            }
+        });
+    });
+    </script>
   </head>
   <body>
     <!--=============== HEADER ===============-->
@@ -112,7 +133,13 @@
     <main class="main">
         <section class="signup__page section container">
             <h2 class="signup__title">Create a New Account</h2>
-            <form class="signup__form">
+            <?php
+            // Display error message if exists
+            if(isset($error_message)) {
+                echo '<div class="alert alert-danger">' . $error_message . '</div>';
+            }
+            ?>
+            <form class="signup__form" action="register_user.php" method="POST">
                 <div class="signup__form-group">
                     <label for="first-name">First Name</label>
                     <input type="text" id="first-name" name="first-name" required>
@@ -124,6 +151,7 @@
                 <div class="signup__form-group">
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" required>
+                    <div id="email-status"></div>
                 </div>
                 <div class="signup__form-group">
                     <label for="password">Password</label>

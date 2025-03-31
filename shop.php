@@ -46,10 +46,10 @@ $transformedHtml = $xslt->transformToXML($xml);
 
     <!-- ============ CSS ============ -->
 
-    <link rel="stylesheet" href="assets/css/styles2.css" />
-    <link rel="stylesheet" href="assets/css/colors/color-1.css" />
-    <link rel="stylesheet" href="assets/css/stylesMobile.css" />
-    <link rel="stylesheet" href="assets/css/shop.css" />
+    <link rel="stylesheet" href="assets/css/styles2.css?v=<?php echo time(); ?>" />
+    <link rel="stylesheet" href="assets/css/colors/color-1.css?v=<?php echo time(); ?>" />
+    <link rel="stylesheet" href="assets/css/stylesMobile.css?v=<?php echo time(); ?>" />
+    <link rel="stylesheet" href="assets/css/shop.css?v=<?php echo time(); ?>" />
 
 
     <!-- ============ NAVBAR Script ============ -->
