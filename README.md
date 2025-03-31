@@ -36,6 +36,26 @@ A modern, responsive e-commerce website focused on skincare, haircare, and beaut
 - **Swiper**: Modern mobile touch slider
 - **NuSOAP**: PHP library for SOAP web services
 
+## Screenshots
+
+### Home Page
+![Aura+ Skincare Website - Home](assets/img/main-website.png)
+
+### Shop Page
+![Aura+ Skincare Website - Shop](assets/img/shop.png)
+
+### Product Search
+![Aura+ Skincare Website - Search](assets/img/search.png)
+
+### Add Product
+![Aura+ Skincare Website - Add Product](assets/img/add.png)
+
+### FAQ Page
+![Aura+ Skincare Website - FAQ](assets/img/faq.png)
+
+### Signup Page
+![Aura+ Skincare Website - Signup](assets/img/signup.png)
+
 ## Database Structure
 
 The website uses a MySQL database named `skincare_db` with the following tables:
@@ -155,23 +175,6 @@ To test the SOAP service:
 
 ## Screenshots
 
-### Home Page
-![Aura+ Skincare Website - Home](assets/img/main-website.png)
-
-### Shop Page
-![Aura+ Skincare Website - Shop](assets/img/shop.png)
-
-### Product Search
-![Aura+ Skincare Website - Search](assets/img/search.png)
-
-### Add Product
-![Aura+ Skincare Website - Add Product](assets/img/add.png)
-
-### FAQ Page
-![Aura+ Skincare Website - FAQ](assets/img/faq.png)
-
-### Signup Page
-![Aura+ Skincare Website - Signup](assets/img/signup.png)
 
 ### Additional Home Sections
 ![Aura+ Skincare Website - Home Section 2](assets/img/home2.png)
